@@ -64,29 +64,10 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/02/resume/index.html",
+			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/tags_boxes/css/style.css",
 			"settings":
 			{
-				"buffer_size": 916,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/02/resume/portfolio.html",
-			"settings":
-			{
-				"buffer_size": 2442,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/02/resume/css/style.css",
-			"settings":
-			{
-				"buffer_size": 1403,
-				"encoding": "UTF-8",
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		}
@@ -138,10 +119,17 @@
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/01",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/01/cookie_recipe",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/01/ga-press-release"
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/01/ga-press-release",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/tags_boxes"
 	],
 	"file_history":
 	[
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/tags_boxes/index.html",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/tags_boxes/css/style.css",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/02/resume/css/style.css",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/02/resume/portfolio.html",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/02/resume/index.html",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/02/cookie_recipe/css/style.css",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/02/cookie_recipe/index.html",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/GA-FEWD/Week_01_Basics/01_html_basics/solution/JeffreyWisard/cookie_recipe/index.html",
@@ -185,66 +173,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/02/resume/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 916,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								356,
-								356
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/02/resume/portfolio.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2442,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2122,
-								2122
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1330.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		},
 		{
@@ -252,20 +182,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 2,
-					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/02/resume/css/style.css",
+					"buffer": 0,
+					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/tags_boxes/css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1403,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								677,
-								677
+								0,
+								0
 							]
 						],
 						"settings":
@@ -273,7 +203,7 @@
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 570.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -358,7 +288,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
