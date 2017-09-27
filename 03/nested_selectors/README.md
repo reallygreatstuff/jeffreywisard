@@ -2,10 +2,19 @@ Nested Selectors CSS
 =================
 
 * Page has a margin of 50px
-* Text color is #888
-* Font Family = Georgia, serif;
-* Heading One and Emphasised text has a color of #000
-* Block Quote has a left padding is 10px and a 5px left border of 5px
+* 
+Text color is #888
+* 
+Font Family = Georgia, serif;
+* 
+Heading One and Emphasised text has a color of #000
+* 
+Block Quote has a left padding is 10px and a 5px left border of 5px
+
+
+
+
+
 
 Screenshot
 ------

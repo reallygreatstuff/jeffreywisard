@@ -4,7 +4,7 @@ Client: Your Client
 Author: Your Name
 Developer @GA in NYC
 */
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600,800');
 
 /******************************************
 /* SETUP
@@ -68,7 +68,7 @@ body {
 }
 
 header {
-
+font-family: Open Sans;
 }
 
 footer {
@@ -79,6 +79,75 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 
+header p {
+  font-size: 24px;
+  font-weight: bolder;
+  color: white;
+}
 
+}
+h1 {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+}
 
+h2 {
+  color: #033048;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 100px;
+
+}
+p {
+  font-size: 13px;
+  color: #606161;
+  font-weight: 300;
+  padding-left: 100px;
+}
+
+ul {
+  color: #606161;
+  list-style-type: none;
+  padding-left: 125px;
+}
+
+blockquote {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18px;
+  color: white;
+}
+
+cite {
+  font-size: 18px;
+  font-weight: 800;
+  color: white;
+}
+
+button {
+  font-size: 12px;
+  border: 0px solid #033048;
+  padding: 10px 45px;
+  border-radius: 5px;
+  font-weight: 800;
+  color: white;
+  background: #033048;
+}
+p {
+  font-size: 24px;
+}
+
+#benefits {
+  background-color: white;
+  height: 700px;
+}
+
+#benefits h2{
+  
+}

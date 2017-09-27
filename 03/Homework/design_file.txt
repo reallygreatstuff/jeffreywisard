@@ -1,4 +1,4 @@
-Relaxr Landing Page: Part 1
+﻿Relaxr Landing Page: Part 1
 ==================
 
 We'll be working on this site for the next three classes, just a heads up.
@@ -33,3 +33,7 @@ Weight: Light, Light Italic, Semibold, Extrabold
 
 Relaxr - extra bold, 24px
 "Copyright 2015. Relaxr." - 9px, semibold
+****************************
+Make logo H1 and next H2
+Add background image to the header section, no to the whole page; change background size
+Do section height as auto so it adjusts to the padding
