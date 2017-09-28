@@ -50,8 +50,6 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
 }
 
 
@@ -97,40 +95,108 @@ h1 {
   color: white;
 }
 
-h2 {
+
+
+p {
+  font-size: 24px;
+}
+
+#header {
+  background: url(../images/header_bg.jpg);
+background-size: cover;
+}
+
+#header h1 {
+  font-size: 24px;
+  font-weight: 800;
+  color: white;
+  padding-left: 60px;
+  padding-top: 10px;
+}
+
+#header h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  padding-top: 250px;
+  text-align: center;
+}
+
+#header button {
+  margin-left: 45%;
+  margin-top: 40px;
+  margin-bottom: 200px;
+  background-color: #f9e42e;
+  color: #033048;
+  font-size: 14px
+  font-style: 800;
+  border-radius: 5px;
+  padding: 10px 45px;
+  border: 0px solid #033048;
+  font-weight: 800;
+}
+
+#benefits {
+  background-color: #f0efef;
+  height: 300px;
+}
+
+#benefits h2 {
   color: #033048;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   padding-left: 100px;
-
+  padding-top: 50px;
 }
-p {
-  font-size: 13px;
+
+#benefits p {
   color: #606161;
+  width: 32em;
+  word-wrap: break-word;
+  font-size: 13px;
   font-weight: 300;
   padding-left: 100px;
+  padding-top: 5px;
 }
 
-ul {
+#benefits ul {
   color: #606161;
+  font-size: 13px;
+  font-weight: 300;
   list-style-type: none;
   padding-left: 125px;
+  padding-top: 25px;
 }
 
-blockquote {
+#quote {
+  background: url(../images/header_bg.jpg);
+  background-size: cover;
+  background-position: center bottom;
+}
+
+#quote blockquote {
   font-weight: 300;
   font-style: italic;
   font-size: 18px;
   color: white;
+  text-align: center;
+  padding-top: 50px;
+  width: 17em;
+  margin-left: 39%;
 }
 
-cite {
+#quote p {
   font-size: 18px;
   font-weight: 800;
   color: white;
+  text-align: center;
+  padding-bottom: 50px;
 }
 
-button {
+#button2 {
+  background-color: #f9e42e;
+}
+#button2 button {
   font-size: 12px;
   border: 0px solid #033048;
   padding: 10px 45px;
@@ -138,16 +204,37 @@ button {
   font-weight: 800;
   color: white;
   background: #033048;
+  margin-left: 45%;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
-p {
+
+#footer {
+  background-color: black;
+}
+
+#footer h1 {
   font-size: 24px;
+  font-weight: 800;
+  color: #f9e42e;
+  text-align: center;
+  padding-top: 30px;
 }
 
-#benefits {
-  background-color: white;
-  height: 700px;
+#footer p {
+  font-size: 9px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
 }
-
-#benefits h2{
-  
+#footer img {
+  padding-top: 40px;
+  padding-bottom: 40px
+  width: 35px;
 }
+/* #benefits span {
+  font-size: 25px;
+  padding: 0px;
+  margin: 0px;
+} */
