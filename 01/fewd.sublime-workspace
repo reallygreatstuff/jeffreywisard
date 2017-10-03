@@ -4,8 +4,76 @@
 		"selected_items":
 		[
 			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"barc",
+				"background-color"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"borderc",
+				"border-color"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"padin",
+				"padding-bottom"
+			],
+			[
+				"pading",
+				"padding-top"
+			],
+			[
 				"align",
-				"vertical-align"
+				"text-align"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"paddig",
+				"padding-top"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"ba",
+				"background-image"
 			],
 			[
 				"c",
@@ -16,20 +84,8 @@
 				"font-size"
 			],
 			[
-				"margin",
-				"margin-left"
-			],
-			[
-				"padd",
-				"padding-left"
-			],
-			[
 				"pad",
 				"padding"
-			],
-			[
-				"font",
-				"font-family"
 			],
 			[
 				"background",
@@ -38,10 +94,6 @@
 			[
 				"border-",
 				"border-width"
-			],
-			[
-				"padding",
-				"padding-bottom"
 			],
 			[
 				"wrap",
@@ -54,10 +106,6 @@
 			[
 				"text",
 				"text-align"
-			],
-			[
-				"border",
-				"border-color"
 			],
 			[
 				"border-top",
@@ -80,40 +128,21 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/Homework/index.html",
+			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code/layout 3 column/index2.html",
 			"settings":
 			{
-				"buffer_size": 1322,
+				"buffer_size": 569,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "/*\nProject Name: Blank Template\nClient: Your Client\nAuthor: Your Name\nDeveloper @GA in NYC\n*/\n@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600,800');\n\n/******************************************\n/* SETUP\n/*******************************************/\n\n/* Box Model Hack */\n* {\n     -moz-box-sizing: border-box; /* Firexfox */\n     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */\n     box-sizing: border-box; /* IE */\n}\n\n/* Clear fix hack */\n.clearfix:after {\n     content: \".\";\n     display: block;\n     clear: both;\n     visibility: hidden;\n     line-height: 0;\n     height: 0;\n}\n\n.clear {\n  clear: both;\n}\n\n.alignright {\n  float: right;\n  padding: 0 0 10px 10px; /* note the padding around a right floated image */\n}\n\n.alignleft {\n  float: left;\n  padding: 0 10px 10px 0; /* note the padding around a left floated image */\n}\n\n/******************************************\n/* BASE STYLES\n/*******************************************/\n\nbody {\n     color: #000;\n     font-size: 12px;\n     line-height: 1.4;\n     font-family: Helvetica, Arial, sans-serif;\n     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);\n      background-size: cover;\n}\n\n\n/******************************************\n/* LAYOUT\n/*******************************************/\n\n/* Center the container */\n#container {\n  width: 100%;\n  margin: auto;\n  height: 500px;\n\n}\n\nheader {\nfont-family: Open Sans;\n}\n\nfooter {\n\n}\n\n/******************************************\n/* ADDITIONAL STYLES\n/*******************************************/\n\nbody {\n  font-family: 'Open Sans', sans-serif;\n}\n\nheader p {\n  font-size: 24px;\n  font-weight: bolder;\n  color: white;\n}\n\n}\nh1 {\n  font-size: 24px;\n  font-weight: 500;\n  text-align: center;\n  color: white;\n}\n\nh2 {\n  color: #033048;\n  font-size: 20px;\n  font-weight: 500;\n  padding-left: 100px;\n\n}\np {\n  font-size: 13px;\n  color: #606161;\n  font-weight: 300;\n  padding-left: 100px;\n}\n\nul {\n  color: #606161;\n  list-style-type: none;\n  padding-left: 125px;\n}\n\nblockquote {\n  font-weight: 300;\n  font-style: italic;\n  font-size: 18px;\n  color: white;\n}\n\ncite {\n  font-size: 18px;\n  font-weight: 800;\n  color: white;\n}\n\nbutton {\n  font-size: 12px;\n  border: 0px solid #033048;\n  padding: 10px 45px;\n  border-radius: 5px;\n  font-weight: 800;\n  color: white;\n  background: #033048;\n}\np {\n  font-size: 24px;\n}\n\n#benefits {\n  background-color: white;\n  height: 700px;\n}\n\n#benefits h2{\n\n}\n\n",
-			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/Homework/css/style.css",
-			"file_size": 2448,
-			"file_write_time": 131509488785052797,
+			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code/layout 3 column/css/style2.css",
 			"settings":
 			{
-				"buffer_size": 2448,
+				"buffer_size": 654,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/Homework/css/normalize.css",
-			"settings":
-			{
-				"buffer_size": 9016,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/Homework/css/reset.css",
-			"settings":
-			{
-				"buffer_size": 1092,
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -162,18 +191,23 @@
 	"expanded_folders":
 	[
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/01",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/01/cookie_recipe",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/01/ga-press-release",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/02",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/02/resume",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/Homework",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/Homework/css",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/tags_boxes"
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code/layout 3 column",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code/layout_challenge",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code/layout_challenge/css"
 	],
 	"file_history":
 	[
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code/layout 3 column/index.html",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code/layout_challenge/css/style.css",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code/layout_challenge/index.html",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code/error_message/index.html",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code/error_message/css/style.css",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/Homework/css/reset.css",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/Homework/css/normalize.css",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/Homework/css/style.css",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/Homework/index.html",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/tags_boxes/css/style.css",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/nested_selectors/index.html",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/nested_selectors/css/style.css",
@@ -205,6 +239,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"id",
 			" line-height: 0px;",
 			"250px"
 		],
@@ -229,28 +264,28 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/Homework/index.html",
+					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code/layout 3 column/index2.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1322,
+						"buffer_size": 569,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								473,
-								473
+								306,
+								306
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 190.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -264,91 +299,30 @@
 			[
 				{
 					"buffer": 1,
-					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/Homework/css/style.css",
+					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code/layout 3 column/css/style2.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2448,
+						"buffer_size": 654,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2448,
-								2448
+								257,
+								257
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2148.0,
+						"translation.y": 190.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/Homework/css/normalize.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9016,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3,
-								3
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/Homework/css/reset.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1092,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -382,7 +356,7 @@
 		"cols":
 		[
 			0.0,
-			0.477582606559,
+			0.518855177496,
 			1.0
 		],
 		"rows":

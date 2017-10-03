@@ -13,6 +13,8 @@ dark blue: #033048
 light grey: #606161
 almost black: #121212
 
+FONT: 300,300i,600,800
+
 Font: Open Sans (Google Font: https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans)
 Weight: Light, Light Italic, Semibold, Extrabold
 
@@ -20,6 +22,7 @@ Weight: Light, Light Italic, Semibold, Extrabold
 "Get piece of mind with a single tap" - Semibold, 24px
 "Get it Now" - Extra bold, 14px. 5px border radius
 "Benefits" - Semibold, 20px
+
 "The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be." - Light, 13px
 • Schedule meetings for you
 • Excel automation to complete your work for you
