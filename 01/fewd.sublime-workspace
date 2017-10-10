@@ -4,12 +4,92 @@
 		"selected_items":
 		[
 			[
-				"marg",
-				"margin-right"
+				"padd",
+				"padding-left"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"wd",
+				"width"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"tx",
+				"text-decoration"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"flex",
+				"flex-direction"
+			],
+			[
+				"li",
+				"list-style"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"border",
+				"border-bottom"
 			],
 			[
 				"margin",
 				"margin-right"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"cent",
+				"align-content"
+			],
+			[
+				"ali",
+				"align-self"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"min",
+				"min-height"
 			],
 			[
 				"inlin",
@@ -20,16 +100,8 @@
 				"background-color"
 			],
 			[
-				"border",
-				"border-color"
-			],
-			[
 				"borderc",
 				"border-color"
-			],
-			[
-				"padding",
-				"padding-top"
 			],
 			[
 				"margi",
@@ -64,14 +136,6 @@
 				"auto"
 			],
 			[
-				"font",
-				"font-style"
-			],
-			[
-				"padd",
-				"padding-top"
-			],
-			[
 				"ba",
 				"background-image"
 			],
@@ -82,10 +146,6 @@
 			[
 				"font-",
 				"font-size"
-			],
-			[
-				"pad",
-				"padding"
 			],
 			[
 				"background",
@@ -104,16 +164,8 @@
 				"font-size"
 			],
 			[
-				"text",
-				"text-align"
-			],
-			[
 				"border-top",
 				"border-top-color"
-			],
-			[
-				"back",
-				"background-color"
 			],
 			[
 				"wid",
@@ -128,19 +180,37 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code/layout 3 column/index2.html",
+			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/06/Assignment/starter_code/index.html",
 			"settings":
 			{
-				"buffer_size": 569,
+				"buffer_size": 951,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/Startermatchup/index.html",
+			"settings":
+			{
+				"buffer_size": 1595,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code/layout 3 column/css/style2.css",
+			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/06/Assignment/starter_code/css/style.css",
 			"settings":
 			{
-				"buffer_size": 654,
+				"buffer_size": 2875,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/Startermatchup/css/style.css",
+			"settings":
+			{
+				"buffer_size": 2946,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -190,24 +260,26 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code/layout 3 column",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code/layout_challenge",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code/layout_challenge/css"
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard"
 	],
 	"file_history":
 	[
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code/layout 3 column/index.html",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code/layout_challenge/css/style.css",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/06/Assignment/starter_code/css/style.css",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/06/Assignment/starter_code/index.html",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/Homework/css/style.css",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/Homework/index.html",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code/layout 3 column - homework JDW/css/style3.css",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code/layout 3 column - homework JDW/index3.html",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code/layout_challenge/index.html",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code/layout_challenge/css/style.css",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code/layout_challenge/layouts.pdf",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code/layout 3 column/css/style2.css",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code/layout 3 column/index2.html",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code/layout 3 column/index.html",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code/error_message/index.html",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code/error_message/css/style.css",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/Homework/css/reset.css",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/Homework/css/normalize.css",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/Homework/css/style.css",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/Homework/index.html",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/tags_boxes/css/style.css",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/nested_selectors/index.html",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/nested_selectors/css/style.css",
@@ -264,31 +336,59 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code/layout 3 column/index2.html",
+					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/06/Assignment/starter_code/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 569,
+						"buffer_size": 951,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								306,
-								306
+								758,
+								758
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 190.0,
+						"translation.y": 207.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/Startermatchup/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1595,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1504,
+								908
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 760.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -298,20 +398,50 @@
 			"sheets":
 			[
 				{
-					"buffer": 1,
-					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code/layout 3 column/css/style2.css",
+					"buffer": 2,
+					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/06/Assignment/starter_code/css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 654,
+						"buffer_size": 2875,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								257,
-								257
+								2567,
+								2567
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2647.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/Startermatchup/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2946,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2355,
+								2355
 							]
 						],
 						"settings":
@@ -319,10 +449,10 @@
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 190.0,
+						"translation.y": 2445.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
