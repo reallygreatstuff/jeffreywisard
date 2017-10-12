@@ -66,13 +66,18 @@ body {
   background-color: #f0efef;
 }
 
+/***********Always add***********/
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /***********Header***********/
 
+body {
+  background-color: #f0efef;
+}
 header {
   background-color: #01214c;
   height: 75px;
@@ -110,63 +115,178 @@ header nav ul li.noCaps {
   font-weight: 600;
 }
 
-/***********Three Columns***********/
+header a {
+  text-decoration: none;
+  color: #f9e42e;
+}
 
+/***********Two  Columns***********/
 
-#twoColumns {
+#content {
   display: flex;
   margin-top: 75px;
-  flex-wrap: wrap;
 } 
 
-#twoColumns .column1 {
-  width: 600px;
-  flex-direction: column;
-  margin-left: 245px;
+#blog {
+  width: 60%;
+  padding-left: 250px;
+}
 
-} 
+#sideBar {
+  width: 40%;
+  padding-left: 40px;
+  width: 25em; 
+  word-wrap: break-word;
+}
 
-#twoColumns .column1 h2 {
+#blog,
+#sideBar {
+  margin-left: 30px;
+}
+
+#blog img {
+  max-width: 550px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+#blog h2 {
   font-weight: 600;
   font-size: 40px;
   color: #033048;
 }
 
-#twoColumns .column1 p {
+#blog p {
   font-weight: 300;
   font-size: 24px;
   color: #606161;
 }
 
-#twoColumns .column2 {
-  width: 200px;
-  margin-left: 100px;
-  flex-direction: column;
-} 
+#blog span {
+    float: left;
+    font-size: 80px;
+    line-height: 1;
+    font-weight: 600;
+    margin-right: 9px;
+}
 
-#twoColumns .column2 h2 {
-  font-weight: 800;
-  font-size: 32px;
+#blog a {
+  font-weight: 600;
+  font-size: 22px;
+  text-decoration: none;
+  display: block;
+  text-align: right;
   color: #033048;
 }
 
-#twoColumns .column2 p {
+#blog hr {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#sideBar h2 {
+  font-weight: 800;
+  font-size: 32px;
+  color: #033048;
+  padding-bottom: 5px;
+}
+
+.sideBar h2 {
+  padding-top: 50px;
+}
+
+#sideBar p {
   font-weight: 300;
   font-size: 24px;
   color: #033048;
 }
 
-#twoColumns .column2 ul li {
+#sideBar ul li {
   text-transform: none;
   font-weight: 300;
   list-style: none;
   font-size: 24px;
   color: #033048;
 }
-#twoColumns #learn {
-  font-weight: 600;
-  font-size: 22px;
+
+#sideBar a {
+  font-size: 24px;
   color: #033048;
+  text-decoration: none;
+}
+
+#sideBar span {
+  color: #033048;
+  font-weight: 600;
+}
+
+#sideBar img {
+  max-width: 200px;
+  padding-top: 50px;
+}
+
+/***********Button ***********/
+#button2 {
+  background-color: #f9e42e;
+  padding: 15px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 75px;
+  padding: 25px;
+}
+
+#button2 button {
+  font-size: 14px;
+  border: 0px solid #033048;
+  padding: 10px 45px;
+  border-radius: 5px;
+  font-weight: 800;
+  color: white;
+  background: #033048;
+  max-width: 200px;
+  margin: auto;
+  display: block;
+}
+
+/***********Footer***********/
+
+#footer {
+  background-color: black;
+  overflow: hidden;
+}
+
+#footer h1 {
+  font-size: 38px;
+  font-weight: 800;
+  color: #f9e42e;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+#footer p {
+  font-size: 10px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+#footer img {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  max-width: 30px;
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+#socialMedia {
+  overflow: hidden;
+  width: 75px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+#socialMedia .twitter {
+  margin-right: 15px;
 }
 
 /******************************************
