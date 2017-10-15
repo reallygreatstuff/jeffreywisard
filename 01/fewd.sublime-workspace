@@ -244,10 +244,38 @@
 	"buffers":
 	[
 		{
+			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Assignment/starter_code/index.html",
+			"settings":
+			{
+				"buffer_size": 4156,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Assignment/starter_code/css/style.css",
 			"settings":
 			{
 				"buffer_size": 3591,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Assignment/starter_code/js/index.js",
+			"settings":
+			{
+				"buffer_size": 680,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/08_intro_javascript/scoreKeeper/js/index.js",
+			"settings":
+			{
+				"buffer_size": 1496,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -305,12 +333,17 @@
 	"expanded_folders":
 	[
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/08_intro_javascript",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/08_intro_javascript/scoreKeeper",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/08_intro_javascript/scoreKeeper/js",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Assignment",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Assignment/starter_code",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Assignment/starter_code/css"
 	],
 	"file_history":
 	[
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Assignment/starter_code/css/style.css",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/08_intro_javascript/domSelector/js/index.js",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/GA-FEWD/Week_04_Intro_Programming/08_intro_javascript/scoreKeeper/js/index.js",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/GA-FEWD/Week_04_Intro_Programming/08_intro_javascript/domSelector/js/index.js",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/08_intro_javascript/javascript_dom_selector_practice/js/exercise.js",
@@ -319,7 +352,6 @@
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/08_intro_javascript/scoreKeeper/js/index.js",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/08_intro_javascript/scoreKeeper/index.html",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/08_intro_javascript/domSelector/index.html",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/08_intro_javascript/domSelector/js/index.js",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/06/Assignment/starter_code/css/style.css",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/06/Assignment/starter_code/index.html",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/07_intro_programming/traffic_light/css/style.css",
@@ -361,7 +393,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -375,6 +407,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"readmore",
 			"id",
 			" line-height: 0px;",
 			"250px"
@@ -400,8 +433,37 @@
 			[
 				{
 					"buffer": 0,
+					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Assignment/starter_code/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4156,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1608,
+								1568
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1634.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
 					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Assignment/starter_code/css/style.css",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 3591,
@@ -411,8 +473,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								3380,
+								3380
 							]
 						],
 						"settings":
@@ -422,10 +484,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3978.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -435,20 +497,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 1,
-					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/08_intro_javascript/domSelector/js/index.js",
-					"semi_transient": true,
+					"buffer": 2,
+					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Assignment/starter_code/js/index.js",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2494,
+						"buffer_size": 680,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								482,
+								482
 							]
 						],
 						"settings":
@@ -459,7 +521,65 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/08_intro_javascript/scoreKeeper/js/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1496,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								42,
+								42
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/08_intro_javascript/domSelector/js/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2494,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1032,
+								1004
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 380.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -493,7 +613,7 @@
 		"cols":
 		[
 			0.0,
-			0.577064220184,
+			0.450458715597,
 			1.0
 		],
 		"rows":
@@ -541,7 +661,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
