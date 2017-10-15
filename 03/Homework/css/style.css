@@ -232,6 +232,13 @@ body {
 #socialMedia .twitter {
   margin-right: 15px;
 }
+
+.sectionContainer {
+  max-width: 1000px;
+  margin:auto;
+}
+
+
 /* #benefits span {
   font-size: 25px;
   padding: 0px;
