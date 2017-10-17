@@ -257,6 +257,7 @@
 			"settings":
 			{
 				"buffer_size": 3591,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -264,9 +265,17 @@
 			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/08/Assignment/starter_code/js/index.js",
 			"settings":
 			{
-				"buffer_size": 678,
+				"buffer_size": 1037,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/08/08_intro_javascript/domSelector/js/index.js",
+			"settings":
+			{
+				"buffer_size": 2494,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -316,6 +325,9 @@
 	[
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/08",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/08/08_intro_javascript",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/08/08_intro_javascript/domSelector",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/08/08_intro_javascript/domSelector/js",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/08/Assignment",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/08/Assignment/starter_code",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/08/Assignment/starter_code/css",
@@ -389,6 +401,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			">\n",
 			"readmore",
 			"id",
 			" line-height: 0px;",
@@ -426,8 +439,8 @@
 						"selection":
 						[
 							[
-								1740,
-								1740
+								2734,
+								2734
 							]
 						],
 						"settings":
@@ -436,7 +449,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1710.0,
+						"translation.y": 2603.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -455,8 +468,8 @@
 						"selection":
 						[
 							[
-								215,
-								215
+								2246,
+								2246
 							]
 						],
 						"settings":
@@ -466,7 +479,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2470.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -484,15 +497,43 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 678,
+						"buffer_size": 1037,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								209,
-								209
+								801,
+								801
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 190.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/08/08_intro_javascript/domSelector/js/index.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2494,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								744,
+								744
 							]
 						],
 						"settings":
@@ -503,7 +544,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -537,7 +578,7 @@
 		"cols":
 		[
 			0.0,
-			0.450458715597,
+			0.395412844037,
 			1.0
 		],
 		"rows":
@@ -585,7 +626,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
@@ -593,7 +634,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 276.0,
+	"side_bar_width": 96.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

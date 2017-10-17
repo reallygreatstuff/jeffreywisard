@@ -2,32 +2,33 @@
 var showText = document.getElementById('show-this-on-click');
 var showReadLess = document.getElementsByClassName('readless');
 var hideReadMore = document.getElementsByClassName('readmore');
-
+var showLearnMoreText = document.getElementById('learnmoretext');
+var hideLearnMore = document.getElementsByClassName('learnmore');
 console.dir(hideReadMore);
 console.log(hideReadMoreFunc);
 
-hideReadMore.onclick = hideReadMoreFunc;
-showReadLess.onclick = hideReadLessFunc;
+hideReadMore[0].onclick = hideReadMoreFunc;
+hideLearnMore[0].onclick = hideLearnMoreFunc;
 
 /*Make it blog appear FUNCTIONS*/
 
 function hideReadMoreFunc() {
-  hideReadMore[1].style.display = 'none';
-  showReadLess.style.display = 'block';
+  hideReadMore[0].style.display = 'none';
+  showReadLess[0].style.display = 'block';
   showText.style.display = 'block';
 }
 
+function hideLearnMoreFunc() {
+  hideLearnMore[0].style.display = 'none';
+  showLearnMoreText.style.display = 'block';
 
-
-/*Make it blog disappear FUNCTIONS*/
-
-function hideReadLessFunc() {
-  hideReadMore.style.display = 'block';
-  showReadLess.style.display = 'none';
-  showText.style.dipslay = 'none';
 }
 
-//If a user clicks "Read More" on the primary column:
-//1. Have the html element with the id show-this-on-click and class readless appear on the page.
-//2. Have the html element with the class readmore disappear
-//3. Hint: Think about how you would do it with CSS
+/*Make it blog disappear FUNCTIONS*/
+showReadLess[0].onclick = showReadLessFunc;
+
+function showReadLessFunc() {
+  hideReadMore[0].style.display = 'block';
+  showReadLess[0].style.display = 'none';
+  showText.style.display = 'none';
+}
