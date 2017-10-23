@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"in",
+				"inputField"
+			],
+			[
 				"fun",
 				"function"
 			],
@@ -247,6 +251,41 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/Assignment/starter_code/index.html",
+			"settings":
+			{
+				"buffer_size": 822,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/Assignment/starter_code/css/style.css",
+			"settings":
+			{
+				"buffer_size": 2761,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/Assignment/starter_code/js/index.js",
+			"settings":
+			{
+				"buffer_size": 329,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/09_javascript_lab/traffic_light/js/index.js",
+			"settings":
+			{
+				"buffer_size": 1634,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -293,11 +332,19 @@
 	"expanded_folders":
 	[
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/09_javascript_lab",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/09_javascript_lab/traffic_light",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/09_javascript_lab/traffic_light/js",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/Assignment",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/Assignment/starter_code",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/Assignment/starter_code/css",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/carousel",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/carousel/js",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/jquery_dom_selector_practice",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/syntax_drill",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/syntax_drill/js"
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/syntax_drill/js",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Assignment2"
 	],
 	"file_history":
 	[
@@ -366,7 +413,7 @@
 	],
 	"find":
 	{
-		"height": 45.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -402,13 +449,132 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/Assignment/starter_code/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 822,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								349,
+								349
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 190.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/Assignment/starter_code/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2761,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								945,
+								946
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 760.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 2,
+					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/Assignment/starter_code/js/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 329,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								322,
+								322
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/09_javascript_lab/traffic_light/js/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1634,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								984,
+								984
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 143.0,
+						"translation.y": 380.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -488,7 +654,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
@@ -496,7 +662,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 169.0,
+	"side_bar_width": 232.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
