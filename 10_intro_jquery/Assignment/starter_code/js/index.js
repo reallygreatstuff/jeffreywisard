@@ -1,34 +1,45 @@
  $(document).ready(function() {
 
-  $('form').submit(function(event) {
-  	var inputField = $('input').val();
-    if (inputField === 'NYC' || 'new york' || 'nyc' || 'new york city') {
-    	$('body').css('background-image', "url('images/nyc.jpg')");
+//Define form event of submit//
+  $('#submit-btn').click(function(event) {
+  	event.preventDefault();
 
-    }
-    
-    else if (inputField === 'San Francisco' || 'SF' || 'Bay Area' || 'sf') {
-    	$('body').css('background-image', "url('images/sf.jpg')");
-    
-    }
+  	//Define the variable input to compare with cities //
+  	var inputField = $('#city-type').val();
 
-    else if (inputField === 'Los Angeles' || 'LA' || 'la' || 'LAX') {
-    	$('body').css('background-image', "url('images/la.jpg')");
-    
-    }
- 	
- 	else if (inputField === 'Austin' || 'ATX' || 'atx') {
-    	$('body').css('background-image', "url('images/austin.jpg')");
-    
+
+    //If input var is same as inputField, change  background //
+      if(inputField == 'new york city' || 'nyc' || 'new york') {
+      $('body').removeClass();
+      $('body').addClass('nyc');
     }
 
-    else if (inputField === 'Sydney' || 'SYD' || 'sy') {
-    	$('body').css('background-image', "url('images/sydney.jpg')");
-    
+    // if SF/San Francisco/Bay Area change the CSS class to 'sf'
+    else if (inputField == 'sf' || 'san francisco' || 'bay area') {
+      $('body').removeClass();
+      $('body').addClass('sf');
+    }
+
+    // if Austin/ATX change the CSS class to 'austin'
+    else if (inputField == 'austin' || 'atx') {
+      $('body').removeClass();
+      $('body').addClass('austin');
+    }
+
+    // if Los Angeles/LA/LAX change the CSS class to 'la'
+    else if (inputField == 'los angeles' || 'la' ||  'lax') {
+      $('body').removeClass();
+      $('body').addClass('la');
+    }
+
+    // if Sydney/SYD change the CSS class to 'sydney'
+    else if (inputField == 'sydney' || 'syd') {
+      $('body').removeClass();
+      $('body').addClass('sydney');
     }
 
     console.log(inputField);
-    event.preventDefault();
+    
   });
  
 });
