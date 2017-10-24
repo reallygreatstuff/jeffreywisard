@@ -1,6 +1,6 @@
  $(document).ready(function() {
 
-//Define form event of submit//
+//Define form event of submit/when the user submits the form//
   $('#submit-btn').click(function(event) {
   	event.preventDefault();
 
@@ -9,31 +9,31 @@
 
 
     //If input var is same as inputField, change  background //
-      if(inputField == 'new york city' || 'nyc' || 'new york') {
+      if(inputField === 'new york city' || inputField === 'nyc' || inputField === 'new york') {
       $('body').removeClass();
       $('body').addClass('nyc');
     }
 
-    // if SF/San Francisco/Bay Area change the CSS class to 'sf'
-    else if (inputField == 'sf' || 'san francisco' || 'bay area') {
+    // If SF or San Francisco or Bay Area change the CSS class to 'sf'
+    else if (inputField === 'sf' || inputField === 'san francisco' || inputField === 'bay area') {
       $('body').removeClass();
       $('body').addClass('sf');
     }
 
-    // if Austin/ATX change the CSS class to 'austin'
-    else if (inputField == 'austin' || 'atx') {
+    // If Austin or ATX change the CSS class to 'austin'
+    else if (inputField === 'austin' || inputField === 'atx') {
       $('body').removeClass();
       $('body').addClass('austin');
     }
 
-    // if Los Angeles/LA/LAX change the CSS class to 'la'
-    else if (inputField == 'los angeles' || 'la' ||  'lax') {
+    // If Los Angeles or LA or LAX change the CSS class to 'la'
+    else if (inputField === 'los angeles' || inputField === 'la' || inputField === 'lax') {
       $('body').removeClass();
       $('body').addClass('la');
     }
 
     // if Sydney/SYD change the CSS class to 'sydney'
-    else if (inputField == 'sydney' || 'syd') {
+    else if (inputField === 'sydney' || inputField === 'syd') {
       $('body').removeClass();
       $('body').addClass('sydney');
     }
