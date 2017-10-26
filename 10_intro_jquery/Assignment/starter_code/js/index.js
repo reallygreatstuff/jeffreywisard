@@ -14,25 +14,25 @@
       $('body').addClass('nyc');
     }
 
-    // If SF or San Francisco or Bay Area change the CSS class to 'sf'
+    // If SF or San Francisco or Bay Area change class to sf
     else if (inputField === 'sf' || inputField === 'san francisco' || inputField === 'bay area') {
       $('body').removeClass();
       $('body').addClass('sf');
     }
 
-    // If Austin or ATX change the CSS class to 'austin'
+    // If Austin or ATX change class to austin
     else if (inputField === 'austin' || inputField === 'atx') {
       $('body').removeClass();
       $('body').addClass('austin');
     }
 
-    // If Los Angeles or LA or LAX change the CSS class to 'la'
+    // If Los Angeles or LA or LAX change class to la
     else if (inputField === 'los angeles' || inputField === 'la' || inputField === 'lax') {
       $('body').removeClass();
       $('body').addClass('la');
     }
 
-    // if Sydney/SYD change the CSS class to 'sydney'
+    // If Sydney/SYD change class to sydney
     else if (inputField === 'sydney' || inputField === 'syd') {
       $('body').removeClass();
       $('body').addClass('sydney');
