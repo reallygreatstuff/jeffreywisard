@@ -251,15 +251,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/Assignment/starter_code/js/index.js",
-			"settings":
-			{
-				"buffer_size": 1358,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -306,33 +297,24 @@
 	"expanded_folders":
 	[
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/09_javascript_lab",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/09_javascript_lab/carousel",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/Assignment",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/Assignment/starter_code",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/Assignment/starter_code/css",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/Assignment/starter_code/js",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/carousel",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/carousel/js",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/jquery_dom_selector_practice",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/syntax_drill",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/syntax_drill/js",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/11_lab",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/11_lab/even_odds",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/11_lab/even_odds/js",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Assignment2"
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/Assignment/starter_code/js"
 	],
 	"file_history":
 	[
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/GA-FEWD/Week_06_Review_Refactor/12_refactor/refactor/css/refactor.css",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/GA-FEWD/Week_06_Review_Refactor/12_refactor/refactor/index.html",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/GA-FEWD/Week_06_Review_Refactor/12_refactor/refactor/js/refactor.js",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/11_lab/even_odds/js/index.js",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/11_lab/even_odds/css/style.css",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/11_lab/even_odds/index.html",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/Assignment/starter_code/css/style.css",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/Assignment/starter_code/js/index.js",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/11_lab/even_odds/css/style.css",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/Assignment/starter_code/index.html",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/09_javascript_lab/traffic_light/index.html",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/09_javascript_lab/traffic_light/js/index.js",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/Assignment/starter_code/css/style.css",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/carousel/js/index.js",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/carousel/index.html",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/jquery_dom_selector_practice/js/exercise.js",
@@ -440,39 +422,8 @@
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/Assignment/starter_code/js/index.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1358,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								558,
-								558
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -504,7 +455,7 @@
 		"cols":
 		[
 			0.0,
-			0.439064740939,
+			0.679135349942,
 			1.0
 		],
 		"rows":
@@ -552,7 +503,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
