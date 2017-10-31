@@ -10,7 +10,7 @@ JavaScript is powerful: we're able to take user interaction and information and 
 
 Student: __JEFFREY WISARD__
 
-Project URL: __https://github.com/reallygreatstuff/__ 
+Project URL: __https://github.com/reallygreatstuff/tree/master/jeffreywisard/10_intro_jquery/Assignment/starter_code/rubric.md__ 
 
 |                                                                                                                               |                                |                        |                          |
 |-------------------------------------------------------------------------------------------------------------------------------|--------------------------------|------------------------|--------------------------|
