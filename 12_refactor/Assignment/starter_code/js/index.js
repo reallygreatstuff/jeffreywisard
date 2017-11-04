@@ -18,6 +18,7 @@ $(cityType).each(function(i, item) {
 //When city type is changed/selected, create the variable for input and run the script
   	 $("#city-type").change(function () {
   	var inputField = $("option:selected").val();
+  	// or var inputField = $("select").val();
   	console.log(inputField);
 
 
