@@ -10,8 +10,8 @@
 }
 
 header {
-	background-color: black;
-	border-bottom: 2px solid #FFFF00;
+	background-color: #00a4ff;
+	border-bottom: 2px solid #fbec5d;
 	height: auto;
 	overflow: hidden;
 	padding: 15px 0px 15px 0px;
@@ -19,19 +19,16 @@ header {
 }
 
 header h1 {
-	color: #FFFF00;
+	color: white;
 	padding: 0px 25px;
 	font-family: 'Merriweather', serif;
 	font-weight: 700;
-	font-size: 20px;
+	font-size: 24px;
 	float: left;
 }
 
 header nav {
 	color: white;
-	margin-top: 35px;
-	margin-left: 25px;
-	padding-top: 6px;
 	display: none;
 }
 
@@ -48,14 +45,6 @@ header nav ul li.allCaps {
 
 }
 
-header nav ul li.noCaps {
-	text-transform: none;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 300;
-	list-style: none;
-	font-size: 14px;
-}
-
 .hamburgerMenu {
 	float: right;
 	width: 50px;
@@ -65,54 +54,46 @@ header nav ul li.noCaps {
 }
 
 .hamburgerMenu hr {
-	border: 2px solid yellow;
+	border: 2px solid white;
 	margin-bottom: 4px;
 
 }
 
-
-/***********Brains***********/
-
-#brains {
-	display: none;
-}
-
-/***********Hero***********/
+/***********Hero 1***********/
 
 #hero {
-	background-image: url("../images/coworking.jpg");
+	/*background-image: url("../images/coworking.jpg");*/
+	background-color: #fc89ac;
 	background-size: cover;
 	background-position: center;
-	height: 230px;
+	height: 250px;
 	width: 100%;
 	overflow: hidden;
-	padding: 25px;
+	padding: 10px;
 }
 
 
 aside.box {
-	background: rgba(255,255,255,0.75);
 	max-height: 200px;
-	max-width: 400px;
-	float: right;
-	box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+	max-width: 500px;
+	margin: auto;
 	font-family: 'Source Sans Pro', sans-serif;
 	padding: 30px;
 }
 
 aside.box h2 {
 	font-weight: 700;
+	font-size: 42px;
+	text-align: center;
+
 }
 
 aside.box p {
 	font-weight: 300;
-	font-size: 15px;
+	font-size: 16px;
 	line-height: 1.5;
 	width: 100%;
-}
-aside.box p span {
-	display: none;
-
+	text-align: center;
 }
 
 aside.box button {
@@ -131,37 +112,49 @@ aside.box button {
 	box-shadow: 0 2px #cccb2c;
 }
 
-/***********Three Columns***********/
 
-#threeColumns {
-	padding-top: 25px;
-	padding-bottom: 25px;
+/***********HeroThree***********/
+
+#heroThree {
+	/*background-image: url("../images/coworking.jpg");*/
+	background-color: #b2e1cf;
+	background-size: cover;
+	background-position: center;
+	height: 250px;
 	width: 100%;
-	margin: 0px 20px 0px 20px;
-} 
-
-#threeColumns .column1 {
-	padding-bottom: 50px;
-} 
-
-#threeColumns .column1 h2 {
-	font-family: 'Merriweather', serif;
-	font-weight: 700;
-	font-size: 18px;
+	overflow: hidden;
+	padding: 10px;
 }
 
-#threeColumns .column1 p {
+
+aside.boxThree {
+	max-height: 200px;
+	max-width: 500px;
+	margin: auto;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 300;
-	font-size: 15px;
-	line-height: 1.5;
-	width: 70%;	
+	padding: 30px;
 }
 
-#threeColumns .column1 button {
+aside.boxThree h2 {
+	font-weight: 700;
+	font-size: 42px;
+	text-align: center;
+	color: black;
+}
+
+aside.boxThree p {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 1.5;
+	width: 100%;
+	text-align: center;
+	color: black;
+}
+
+aside.boxThree button {
 	font-family: 'Oswald', sans-serif;
 	color: black;
-	background-color: #c6c6c6;
+	background-color: #FFFF00;
 	font-weight: 700;
 	font-size: 18px;
 	width: 100%;
@@ -171,7 +164,144 @@ aside.box button {
 	outline: 0;
 	text-transform: uppercase;
 	border-radius: 5px;
-	box-shadow: 0 2px #969696;
+	box-shadow: 0 2px #cccb2c;
+}
+
+/***********HeroThree***********/
+
+#heroTwo {
+	/*background-image: url("../images/coworking.jpg");*/
+	background-color: #40e0e0;
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 100%;
+	overflow: hidden;
+	padding: 10px;
+}
+
+
+aside.boxTwo {
+	max-height: 200px;
+	max-width: 500px;
+	margin: auto;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 30px;
+}
+
+aside.boxTwo h2 {
+	font-weight: 700;
+	font-size: 42px;
+	text-align: center;
+	color: white;
+}
+
+aside.boxTwo p {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 1.5;
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+
+aside.boxTwo button {
+	font-family: 'Oswald', sans-serif;
+	color: black;
+	background-color: #FFFF00;
+	font-weight: 700;
+	font-size: 18px;
+	width: 100%;
+	padding: 5px 0px;
+	margin-top: 20px;
+	border: 0;
+	outline: 0;
+	text-transform: uppercase;
+	border-radius: 5px;
+	box-shadow: 0 2px #cccb2c;
+}
+
+/***********Footer***********/
+
+
+footer {
+	background-color: #00a4ff;
+	border-bottom: 2px solid #fbec5d;
+	height: auto;
+	overflow: hidden;
+	padding: 15px 0px 15px 0px;
+	margin-bottom: 0px;
+
+}
+
+
+/* Changes the style of the overall form */
+#mc_embed_signup {
+    background: #f8f8f8;
+    color: #000000;
+    padding: 20px;
+    text-align: left;
+    max-width: 425px;
+    max-height: 400px;
+    margin:auto;
+}
+
+/* Styles the header text above the inputs */
+#mc_embed_signup h2 {
+	font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    /*margin: 0 0 20px;*/
+    color: #000000;
+    text-align: left;
+}
+
+.indicates-required {
+	font-family: 'Oswald', sans-serif;
+}
+
+
+/* Adds extra space around the input boxes */
+#mc_embed_signup .mc-field-group {
+    padding: 10px 0;
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+}
+
+/* Styles the input boxes */
+#mc_embed_signup  input {
+    width: 200px;
+    height: auto;
+    padding: 5px 0px;
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+
+}
+
+/* Styles the subscribe button */
+#mc_embed_signup .button {
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
+}
+
+footer nav {
+	color: white;
+	margin: auto;
+	display: block;
+}
+
+footer nav ul li {
+	padding-bottom: 15px;
+
+}
+
+footer nav ul li.allCaps {
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	list-style: none;
+
 }
 
 /**********************************/
@@ -231,28 +361,6 @@ header nav ul li.noCaps {
 }
 /***********Brains***********/
 
-#brains {
-	display: block;
-	font-family: 'Merriweather', serif;
-	font-style: italic;
-	font-weight: 700;
-	text-align: center;
-	margin: auto;
-	background-color: #c6c6c6;
-	padding: 12px 0px;
-	font-size: 18px;
-	height: auto;
-	
-}
-
-#brains .slash {
-	text-decoration: line-through;
-	color: #969696;
-}
-
-#brains .underline {
-	border-bottom: 2px solid #ffff00;
-}
 
 /***********Hero***********/
 

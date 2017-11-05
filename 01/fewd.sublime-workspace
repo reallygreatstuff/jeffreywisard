@@ -4,16 +4,28 @@
 		"selected_items":
 		[
 			[
+				"mari",
+				"margin"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
 				"padd",
-				"padding-top"
+				"padding"
+			],
+			[
+				"marg",
+				"margin"
 			],
 			[
 				"max",
 				"max-height"
 			],
 			[
-				"marg",
-				"margin-bottom"
+				"paddig",
+				"padding-left"
 			],
 			[
 				"ov",
@@ -46,10 +58,6 @@
 			[
 				"pad",
 				"padding-bottom"
-			],
-			[
-				"margin",
-				"margin-right"
 			],
 			[
 				"fun",
@@ -224,10 +232,6 @@
 				"font-size"
 			],
 			[
-				"paddig",
-				"padding-top"
-			],
-			[
 				"a",
 				"auto"
 			],
@@ -276,30 +280,34 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/Startermatchup/index.html",
+			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/index.html",
 			"settings":
 			{
-				"buffer_size": 1883,
+				"buffer_size": 2928,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/Startermatchup/js/index.js",
+			"contents": "\n@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i');\n@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');\n@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i');\n\n* {\n\tmargin: 0;\n\tpadding: 0;\n\tbox-sizing: border-box;\n}\n\nheader {\n\tbackground-color: #00a4ff;\n\tborder-bottom: 2px solid #fbec5d;\n\theight: auto;\n\toverflow: hidden;\n\tpadding: 15px 0px 15px 0px;\n\tmargin-bottom: 0px;\n}\n\nheader h1 {\n\tcolor: white;\n\tpadding: 0px 25px;\n\tfont-family: 'Merriweather', serif;\n\tfont-weight: 700;\n\tfont-size: 24px;\n\tfloat: left;\n}\n\nheader nav {\n\tcolor: white;\n\tdisplay: none;\n}\n\nheader nav ul li {\n\tdisplay: block;\n\tpadding-bottom: 15px;\n}\n\nheader nav ul li.allCaps {\n\ttext-transform: uppercase;\n\tfont-family: 'Oswald', sans-serif;\n\tfont-weight: 300;\n\tlist-style: none;\n\n}\n\n.hamburgerMenu {\n\tfloat: right;\n\twidth: 50px;\n\tpadding-right: 25px;\n\tpadding-top: 4px;\n\tposition: static;\n}\n\n.hamburgerMenu hr {\n\tborder: 2px solid white;\n\tmargin-bottom: 4px;\n\n}\n\n/***********Hero 1***********/\n\n#hero {\n\t/*background-image: url(\"../images/coworking.jpg\");*/\n\tbackground-color: #fc89ac;\n\tbackground-size: cover;\n\tbackground-position: center;\n\theight: 250px;\n\twidth: 100%;\n\toverflow: hidden;\n\tpadding: 10px;\n}\n\n\naside.box {\n\tmax-height: 200px;\n\tmax-width: 500px;\n\tmargin: auto;\n\tfont-family: 'Source Sans Pro', sans-serif;\n\tpadding: 30px;\n}\n\naside.box h2 {\n\tfont-weight: 700;\n\tfont-size: 42px;\n\ttext-align: center;\n\n}\n\naside.box p {\n\tfont-weight: 300;\n\tfont-size: 16px;\n\tline-height: 1.5;\n\twidth: 100%;\n\ttext-align: center;\n}\n\naside.box button {\n\tfont-family: 'Oswald', sans-serif;\n\tcolor: black;\n\tbackground-color: #FFFF00;\n\tfont-weight: 700;\n\tfont-size: 18px;\n\twidth: 100%;\n\tpadding: 5px 0px;\n\tmargin-top: 20px;\n\tborder: 0;\n\toutline: 0;\n\ttext-transform: uppercase;\n\tborder-radius: 5px;\n\tbox-shadow: 0 2px #cccb2c;\n}\n\n\n/***********HeroThree***********/\n\n#heroThree {\n\t/*background-image: url(\"../images/coworking.jpg\");*/\n\tbackground-color: #b2e1cf;\n\tbackground-size: cover;\n\tbackground-position: center;\n\theight: 250px;\n\twidth: 100%;\n\toverflow: hidden;\n\tpadding: 10px;\n}\n\n\naside.boxThree {\n\tmax-height: 200px;\n\tmax-width: 500px;\n\tmargin: auto;\n\tfont-family: 'Source Sans Pro', sans-serif;\n\tpadding: 30px;\n}\n\naside.boxThree h2 {\n\tfont-weight: 700;\n\tfont-size: 42px;\n\ttext-align: center;\n\tcolor: black;\n}\n\naside.boxThree p {\n\tfont-weight: 300;\n\tfont-size: 16px;\n\tline-height: 1.5;\n\twidth: 100%;\n\ttext-align: center;\n\tcolor: black;\n}\n\naside.boxThree button {\n\tfont-family: 'Oswald', sans-serif;\n\tcolor: black;\n\tbackground-color: #FFFF00;\n\tfont-weight: 700;\n\tfont-size: 18px;\n\twidth: 100%;\n\tpadding: 5px 0px;\n\tmargin-top: 20px;\n\tborder: 0;\n\toutline: 0;\n\ttext-transform: uppercase;\n\tborder-radius: 5px;\n\tbox-shadow: 0 2px #cccb2c;\n}\n\n/***********HeroThree***********/\n\n#heroTwo {\n\t/*background-image: url(\"../images/coworking.jpg\");*/\n\tbackground-color: #40e0e0;\n\tbackground-size: cover;\n\tbackground-position: center;\n\theight: 250px;\n\twidth: 100%;\n\toverflow: hidden;\n\tpadding: 10px;\n}\n\n\naside.boxTwo {\n\tmax-height: 200px;\n\tmax-width: 500px;\n\tmargin: auto;\n\tfont-family: 'Source Sans Pro', sans-serif;\n\tpadding: 30px;\n}\n\naside.boxTwo h2 {\n\tfont-weight: 700;\n\tfont-size: 42px;\n\ttext-align: center;\n\tcolor: white;\n}\n\naside.boxTwo p {\n\tfont-weight: 300;\n\tfont-size: 16px;\n\tline-height: 1.5;\n\twidth: 100%;\n\ttext-align: center;\n\tcolor: white;\n}\n\naside.boxTwo button {\n\tfont-family: 'Oswald', sans-serif;\n\tcolor: black;\n\tbackground-color: #FFFF00;\n\tfont-weight: 700;\n\tfont-size: 18px;\n\twidth: 100%;\n\tpadding: 5px 0px;\n\tmargin-top: 20px;\n\tborder: 0;\n\toutline: 0;\n\ttext-transform: uppercase;\n\tborder-radius: 5px;\n\tbox-shadow: 0 2px #cccb2c;\n}\n\n/***********Footer***********/\n\n\nfooter {\n\tbackground-color: #00a4ff;\n\tborder-bottom: 2px solid #fbec5d;\n\theight: auto;\n\toverflow: hidden;\n\tpadding: 15px 0px 15px 0px;\n\tmargin-bottom: 0px;\n\n}\n\n\n/* Changes the style of the overall form */\n#mc_embed_signup {\n    background: #f8f8f8;\n    color: #000000;\n    padding: 20px;\n    text-align: left;\n    max-width: 425px;\n    max-height: 400px;\n    margin:auto;\n}\n\n/* Styles the header text above the inputs */\n#mc_embed_signup h2 {\n\tfont-family: 'Oswald', sans-serif;\n    font-size: 18px;\n    /*margin: 0 0 20px;*/\n    color: #000000;\n    text-align: left;\n}\n\n.indicates-required {\n\tfont-family: 'Oswald', sans-serif;\n}\n\n\n/* Adds extra space around the input boxes */\n#mc_embed_signup .mc-field-group {\n    padding: 10px 0;\n    font-family: 'Oswald', sans-serif;\n    text-align: left;\n}\n\n/* Styles the input boxes */\n#mc_embed_signup  input {\n    width: 200px;\n    height: auto;\n    padding: 5px 0px;\n    font-family: 'Oswald', sans-serif;\n    display: inline-block;\n\n}\n\n/* Styles the subscribe button */\n#mc_embed_signup .button {\n    background-color: #000000;\n    color: #ffffff;\n    margin: 0 auto;\n    font-family: 'Oswald', sans-serif;\n}\n\nfooter nav {\n\tcolor: white;\n\tmargin: auto;\n}\n\nfooter nav ul li {\n\tpadding-bottom: 15px;\n\n}\n\nfooter nav ul li.allCaps {\n\ttext-transform: uppercase;\n\tfont-family: 'Oswald', sans-serif;\n\tfont-weight: 300;\n\tlist-style: none;\n\n}\n\n/**********************************/\n/**********************************/\n/**********************************/\n/**********************************/\n/**********************************/\n/**********************************/\n/**********************************/\n/**********************************/\n/**********************************/\n/***********Header***********/\n/*Medium devices (tablets, 768px and up)*/\n@media (min-width: 768px) {\n\nheader {\n\tpadding: 15px 0px 15px 0px;\n}\n\nheader h1 {\n\tpadding: 0px 75px;\n\tfont-size: 24px;\n}\n\n.hamburgerMenu {\n\t\tdisplay: none;\n\t}\n\nheader nav {\n\tcolor: white;\n\tfloat: right;\n\tmargin-right: 50px;\n\tmargin-top: 0px;\n\tpadding-top: 6px;\n\tdisplay: inline;\n}\n\nheader nav ul li {\n\tfloat: left;\n\tpadding-right: 25px;\n}\n\nheader nav ul li.allCaps {\n\ttext-transform: uppercase;\n\tfont-family: 'Oswald', sans-serif;\n\tfont-weight: 300;\n\tlist-style: none;\n\n}\n\nheader nav ul li.noCaps {\n\ttext-transform: none;\n\tfont-family: 'Source Sans Pro', sans-serif;\n\tfont-weight: 300;\n\tlist-style: none;\n\tfont-size: 14px;\n}\n/***********Brains***********/\n\n\n/***********Hero***********/\n\n#hero {\n\theight: 400px;\n\toverflow: visible;\n}\n\naside.box {\n\tbackground: rgba(255,255,255,0.75);\n\theight: auto;\n\tmax-height: 400px;\n\tmax-width: 300px;\n\tfloat: right;\n\tbox-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);\n\tfont-family: 'Source Sans Pro', sans-serif;\n\tpadding: 30px;\n}\n\naside.box h2 {\n\tfont-weight: 700;\n}\n\naside.box p {\n\tfont-weight: 300;\n\tfont-size: 15px;\n\tline-height: 1.5;\n\twidth: 100%;\n}\naside.box p span {\n\tdisplay: inline;\n\n}\n\naside.box button {\n\tfont-family: 'Oswald', sans-serif;\n\tcolor: black;\n\tbackground-color: #FFFF00;\n\tfont-weight: 700;\n\tfont-size: 18px;\n\twidth: 100%;\n\tpadding: 5px 0px;\n\tmargin-top: 20px;\n\tborder: 0;\n\toutline: 0;\n\ttext-transform: uppercase;\n\tborder-radius: 5px;\n\tbox-shadow: 0 2px #cccb2c;\n}\n\n/***********Three Columns***********/\n\n#threeColumns {\n\tdisplay: flex;\n} \n\n#threeColumns .column1 {\n\tmargin: 0px 30px;\n} \n\n#threeColumns .column1 h2 {\n\tfont-family: 'Merriweather', serif;\n\tfont-weight: 700;\n\tfont-size: 18px;\n}\n\n#threeColumns .column1 p {\n\tfont-family: 'Source Sans Pro', sans-serif;\n\tfont-weight: 300;\n\tfont-size: 15px;\n\tline-height: 1.5;\n\twidth: 70%;\t\n}\n\n#threeColumns .column1 button {\n\tfont-family: 'Oswald', sans-serif;\n\tcolor: black;\n\tbackground-color: #c6c6c6;\n\tfont-weight: 700;\n\tfont-size: 18px;\n\twidth: 100%;\n\tpadding: 5px 0px;\n\tmargin-top: 20px;\n\tborder: 0;\n\toutline: 0;\n\ttext-transform: uppercase;\n\tborder-radius: 5px;\n\tbox-shadow: 0 2px #969696;\n}\n/***********Footer***********/\n}\n\n",
+			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/css/style.css",
+			"file_size": 8119,
+			"file_write_time": 131542916910723913,
 			"settings":
 			{
-				"buffer_size": 83,
+				"buffer_size": 7647,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/Startermatchup/css/style.css",
+			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/css/style2.css",
 			"settings":
 			{
-				"buffer_size": 5826,
+				"buffer_size": 1286,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Windows",
+				"name": "<!-- Begin MailChimp Signup Form -->"
 			}
 		}
 	],
@@ -357,6 +365,9 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/Startermatchup/index.html",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/Startermatchup/css/style.css",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/Startermatchup/js/index.js",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/syntax_drill/index.html",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/syntax_drill/css/style.css",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/13_responsive_basics/starter_code/css/responsive.css",
@@ -414,8 +425,6 @@
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/07_intro_programming/color_scheme_switcher/css/style.css",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/07_intro_programming/color_scheme_switcher/js/index.js",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/07_intro_programming/color_scheme_switcher/index.html",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/Startermatchup/css/style.css",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/Startermatchup/index.html",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/Homework/css/style.css",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/03/Homework/index.html",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/04/starter_code/layout 3 column - homework JDW/css/style3.css",
@@ -446,7 +455,7 @@
 	],
 	"find":
 	{
-		"height": 41.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -491,19 +500,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/Startermatchup/index.html",
+					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1883,
+						"buffer_size": 2928,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								348,
-								348
+								2773,
+								2772
 							]
 						],
 						"settings":
@@ -512,7 +521,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 200.0,
+						"translation.y": 1700.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -521,52 +530,24 @@
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 1,
-					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/Startermatchup/js/index.js",
+					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 83,
+						"buffer_size": 7647,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								83,
-								83
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/Startermatchup/css/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5826,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								639,
-								639
+								668,
+								668
 							]
 						],
 						"settings":
@@ -575,10 +556,39 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 200.0,
+						"translation.y": 2600.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/css/style2.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1286,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1243,
+								1243
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<!-- Begin MailChimp Signup Form -->",
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -586,7 +596,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 37.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -612,7 +622,7 @@
 		"cols":
 		[
 			0.0,
-			0.478782304929,
+			0.553584532278,
 			1.0
 		],
 		"rows":
@@ -630,7 +640,7 @@
 	"project": "fewd.sublime-project",
 	"replace":
 	{
-		"height": 70.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -668,7 +678,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 233.0,
+	"side_bar_width": 157.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
