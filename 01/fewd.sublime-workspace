@@ -292,7 +292,7 @@
 			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/css/style.css",
 			"settings":
 			{
-				"buffer_size": 6775,
+				"buffer_size": 7210,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -452,7 +452,7 @@
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 30.0
 	},
 	"find_in_files":
 	{
@@ -509,8 +509,8 @@
 						"selection":
 						[
 							[
-								3041,
-								3041
+								706,
+								706
 							]
 						],
 						"settings":
@@ -519,10 +519,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2600.0,
+						"translation.y": 600.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -537,15 +537,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6775,
+						"buffer_size": 7210,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6774,
-								6774
+								6716,
+								6716
 							]
 						],
 						"settings":
@@ -554,10 +554,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 7911.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -594,7 +594,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 30.0
 	},
 	"input":
 	{
@@ -638,7 +638,7 @@
 	"project": "fewd.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 56.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -668,7 +668,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

@@ -394,20 +394,60 @@ aside.box {
 	padding-top: 50px;
 }
 
-aside.box h2 {
+aside.box
+ h2 {
 	font-weight: 700;
+	font-size: 60px;
 }
 
 aside.box p {
 	font-weight: 300;
-	font-size: 15px;
+	font-size: 18px;
 	line-height: 1.5;
 	width: 100%;
 }
-aside.box p span {
-	display: inline;
 
+
+aside.boxTwo
+ h2 {
+	font-weight: 700;
+	font-size: 60px;
 }
+
+aside.boxTwo p {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 1.5;
+	width: 100%;
+}
+
+aside.boxThree
+ h2 {
+	font-weight: 700;
+	font-size: 60px;
+}
+
+aside.boxThree p {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 1.5;
+	width: 100%;
+}
+
+aside.boxFour
+ h2 {
+	font-weight: 700;
+	font-size: 60px;
+}
+
+
+aside.boxFour p {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 1.5;
+	width: 100%;
+}
+
 
 
 /***********Footer***********/
