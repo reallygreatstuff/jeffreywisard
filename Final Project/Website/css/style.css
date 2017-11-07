@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Rum+Raisin');
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i');
 
@@ -21,10 +21,21 @@ header {
 header h1 {
 	color: white;
 	padding: 0px 25px;
-	font-family: 'Merriweather', serif;
-	font-weight: 700;
-	font-size: 24px;
+	font-family: 'Rum Raisin', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
 	float: left;
+}
+
+a {
+  
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: overline;
+    color: 	#fbec5d;
 }
 
 header nav {
@@ -49,7 +60,7 @@ header nav ul li.allCaps {
 	float: right;
 	width: 50px;
 	padding-right: 25px;
-	padding-top: 4px;
+	padding-top: 10px;
 	position: static;
 }
 
@@ -62,16 +73,15 @@ header nav ul li.allCaps {
 /***********Hero 1***********/
 
 #hero {
-	/*background-image: url("../images/coworking.jpg");*/
+	background-image: url("../images/honeycomb-cereal.png");
+	background-repeat: no-repeat;
+    background-position: center center;
 	background-color: #fc89ac;
-	background-size: cover;
-	background-position: center;
 	height: 250px;
 	width: 100%;
 	overflow: hidden;
 	padding: 10px;
 }
-
 
 aside.box {
 	max-height: 200px;
@@ -85,7 +95,6 @@ aside.box h2 {
 	font-weight: 700;
 	font-size: 42px;
 	text-align: center;
-
 }
 
 aside.box p {
@@ -96,30 +105,13 @@ aside.box p {
 	text-align: center;
 }
 
-aside.box button {
-	font-family: 'Oswald', sans-serif;
-	color: black;
-	background-color: #FFFF00;
-	font-weight: 700;
-	font-size: 18px;
-	width: 100%;
-	padding: 5px 0px;
-	margin-top: 20px;
-	border: 0;
-	outline: 0;
-	text-transform: uppercase;
-	border-radius: 5px;
-	box-shadow: 0 2px #cccb2c;
-}
-
-
 /***********HeroThree***********/
 
 #heroThree {
-	/*background-image: url("../images/coworking.jpg");*/
+	background-image: url("../images/Cereal_2.png");
+	background-repeat: no-repeat;
+    background-position: center center;
 	background-color: #b2e1cf;
-	background-size: cover;
-	background-position: center;
 	height: 250px;
 	width: 100%;
 	overflow: hidden;
@@ -149,22 +141,6 @@ aside.boxThree p {
 	width: 100%;
 	text-align: center;
 	color: black;
-}
-
-aside.boxThree button {
-	font-family: 'Oswald', sans-serif;
-	color: black;
-	background-color: #FFFF00;
-	font-weight: 700;
-	font-size: 18px;
-	width: 100%;
-	padding: 5px 0px;
-	margin-top: 20px;
-	border: 0;
-	outline: 0;
-	text-transform: uppercase;
-	border-radius: 5px;
-	box-shadow: 0 2px #cccb2c;
 }
 
 /***********HeroThree***********/
@@ -205,20 +181,60 @@ aside.boxTwo p {
 	color: white;
 }
 
-aside.boxTwo button {
-	font-family: 'Oswald', sans-serif;
+/***********HeroFour***********/
+
+#heroFour {
+	/*background-image: url("../images/coworking.jpg");*/
+	background-color: white;
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 100%;
+	overflow: hidden;
+	padding: 10px;
+}
+
+
+aside.boxFour {
+	max-height: 200px;
+	max-width: 500px;
+	margin: auto;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 30px;
+}
+
+aside.boxFour h2 {
+	font-weight: 700;
+	font-size: 42px;
+	text-align: center;
 	color: black;
-	background-color: #FFFF00;
+}
+
+aside.boxFour p {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 1.5;
+	width: 100%;
+	text-align: center;
+	color: black;
+}
+
+aside.boxFour button {
+	font-family: 'Oswald', sans-serif;
+	background:transparent;
+    height:auto;
+    width: auto;
+    margin: 20px auto;
+    cursor:pointer;
 	font-weight: 700;
 	font-size: 18px;
-	width: 100%;
-	padding: 5px 0px;
-	margin-top: 20px;
-	border: 0;
+	padding: 10px 25px;
+	border: 1;
+	border-color: #fc89ac;
 	outline: 0;
 	text-transform: uppercase;
-	border-radius: 5px;
-	box-shadow: 0 2px #cccb2c;
+	border-radius: 20px;
+	display: block;
 }
 
 /***********Footer***********/
@@ -244,6 +260,8 @@ footer {
     max-width: 425px;
     max-height: 400px;
     margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* Styles the header text above the inputs */
@@ -288,7 +306,6 @@ footer {
 footer nav {
 	color: white;
 	margin: auto;
-	display: block;
 }
 
 footer nav ul li {
@@ -301,6 +318,7 @@ footer nav ul li.allCaps {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 300;
 	list-style: none;
+	text-align: center;
 
 }
 
@@ -323,7 +341,7 @@ header {
 
 header h1 {
 	padding: 0px 75px;
-	font-size: 24px;
+	font-size: 42px;
 }
 
 .hamburgerMenu {
@@ -335,7 +353,7 @@ header nav {
 	float: right;
 	margin-right: 50px;
 	margin-top: 0px;
-	padding-top: 6px;
+	padding-top: 16px;
 	display: inline;
 }
 
@@ -348,6 +366,7 @@ header nav ul li.allCaps {
 	text-transform: uppercase;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 300;
+	font-size: 22px;
 	list-style: none;
 
 }
@@ -364,20 +383,15 @@ header nav ul li.noCaps {
 
 /***********Hero***********/
 
-#hero {
-	height: 400px;
-	overflow: visible;
+#hero,
+#heroTwo,
+#heroThree,
+#heroFour {
+	height: 500px;
 }
 
 aside.box {
-	background: rgba(255,255,255,0.75);
-	height: auto;
-	max-height: 400px;
-	max-width: 300px;
-	float: right;
-	box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
-	font-family: 'Source Sans Pro', sans-serif;
-	padding: 30px;
+	padding-top: 50px;
 }
 
 aside.box h2 {
@@ -395,61 +409,7 @@ aside.box p span {
 
 }
 
-aside.box button {
-	font-family: 'Oswald', sans-serif;
-	color: black;
-	background-color: #FFFF00;
-	font-weight: 700;
-	font-size: 18px;
-	width: 100%;
-	padding: 5px 0px;
-	margin-top: 20px;
-	border: 0;
-	outline: 0;
-	text-transform: uppercase;
-	border-radius: 5px;
-	box-shadow: 0 2px #cccb2c;
-}
 
-/***********Three Columns***********/
-
-#threeColumns {
-	display: flex;
-} 
-
-#threeColumns .column1 {
-	margin: 0px 30px;
-} 
-
-#threeColumns .column1 h2 {
-	font-family: 'Merriweather', serif;
-	font-weight: 700;
-	font-size: 18px;
-}
-
-#threeColumns .column1 p {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 300;
-	font-size: 15px;
-	line-height: 1.5;
-	width: 70%;	
-}
-
-#threeColumns .column1 button {
-	font-family: 'Oswald', sans-serif;
-	color: black;
-	background-color: #c6c6c6;
-	font-weight: 700;
-	font-size: 18px;
-	width: 100%;
-	padding: 5px 0px;
-	margin-top: 20px;
-	border: 0;
-	outline: 0;
-	text-transform: uppercase;
-	border-radius: 5px;
-	box-shadow: 0 2px #969696;
-}
 /***********Footer***********/
-}
+
 
