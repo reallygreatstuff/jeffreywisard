@@ -4,27 +4,79 @@
 		"selected_items":
 		[
 			[
-				"margin",
-				"margin-bottom"
-			],
-			[
-				"max",
-				"max-width"
-			],
-			[
 				"border",
-				"border-color"
+				"border-width"
 			],
 			[
-				"mari",
-				"margin"
+				"fot",
+				"font-style"
 			],
 			[
-				"padd",
-				"padding"
+				"fon",
+				"font-size"
 			],
 			[
 				"marg",
+				"margin-bottom"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"ali",
+				"text-align"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"li",
+				"listItem"
+			],
+			[
+				"in",
+				"inline-flex"
+			],
+			[
+				"align",
+				"vertical-align"
+			],
+			[
+				"border-bottom",
+				"border-bottom-style"
+			],
+			[
+				"max",
+				"maxlength\tAttr"
+			],
+			[
+				"mari",
 				"margin"
 			],
 			[
@@ -44,10 +96,6 @@
 				"inline-block"
 			],
 			[
-				"in",
-				"inline"
-			],
-			[
 				"di",
 				"display"
 			],
@@ -58,10 +106,6 @@
 			[
 				"pa",
 				"padding-top"
-			],
-			[
-				"pad",
-				"padding-bottom"
 			],
 			[
 				"fun",
@@ -100,10 +144,6 @@
 				"storyTitle"
 			],
 			[
-				"font",
-				"fontSize"
-			],
-			[
 				"back",
 				"backgroundColor"
 			],
@@ -129,10 +169,6 @@
 			],
 			[
 				"paddint",
-				"padding-bottom"
-			],
-			[
-				"padding",
 				"padding-bottom"
 			],
 			[
@@ -172,16 +208,8 @@
 				"flex-direction"
 			],
 			[
-				"li",
-				"list-style"
-			],
-			[
 				"cent",
 				"align-content"
-			],
-			[
-				"ali",
-				"align-self"
 			],
 			[
 				"list",
@@ -218,18 +246,6 @@
 			[
 				"pading",
 				"padding-top"
-			],
-			[
-				"align",
-				"text-align"
-			],
-			[
-				"paddin",
-				"padding"
-			],
-			[
-				"fon",
-				"font-size"
 			],
 			[
 				"a",
@@ -280,31 +296,21 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/index.html",
+			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/16/Assignment/starter_code/form.html",
 			"settings":
 			{
-				"buffer_size": 3208,
+				"buffer_size": 3216,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/css/style.css",
+			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/16/Assignment/starter_code/css/style2.css",
 			"settings":
 			{
-				"buffer_size": 7210,
+				"buffer_size": 3180,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/css/style2.css",
-			"settings":
-			{
-				"buffer_size": 1286,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "<!-- Begin MailChimp Signup Form -->"
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -353,15 +359,30 @@
 	"expanded_folders":
 	[
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/syntax_drill",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/syntax_drill/css",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/10_intro_jquery/syntax_drill/js",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/13_responsive_basics",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/13_responsive_basics/starter_code"
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/15_form_basics",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/15_form_basics/application_form",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/15_form_basics/relaxr",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/15_form_basics/relaxr/css",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/16",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/16/Assignment",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/16/Assignment/starter_code",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/16/Assignment/starter_code/css"
 	],
 	"file_history":
 	[
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/16/Assignment/starter_code/register.html",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/16/Assignment/starter_code/css/style.css",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/15_form_basics/relaxr/css/style.css",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/16/Assignment/starter_code/form.html",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/16/Assignment/starter_code/index.html",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/css/style.css",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/16_to_do_list/css/style.css",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/16_to_do_list/js/index.js",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/16_to_do_list/index.html",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/15_form_basics/application_form/css/style.css",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/15_form_basics/application_form/index.html",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/css/style2.css",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/index.html",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/Startermatchup/index.html",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/Startermatchup/css/style.css",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/Startermatchup/js/index.js",
@@ -452,7 +473,7 @@
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -466,6 +487,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"?</",
+			"read",
+			"post",
+			"readmore",
+			"50px",
 			";\n",
 			"});",
 			"overfl",
@@ -498,19 +524,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/index.html",
+					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/16/Assignment/starter_code/form.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3208,
+						"buffer_size": 3216,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								706,
-								706
+								1762,
+								1762
 							]
 						],
 						"settings":
@@ -519,7 +545,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 600.0,
+						"translation.y": 1200.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -533,60 +559,32 @@
 			[
 				{
 					"buffer": 1,
-					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/css/style.css",
+					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/16/Assignment/starter_code/css/style2.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7210,
+						"buffer_size": 3180,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6716,
-								6716
+								1672,
+								1672
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 7911.0,
+						"translation.y": 1606.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/css/style2.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1286,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1243,
-								1243
-							]
-						],
-						"settings":
-						{
-							"auto_name": "<!-- Begin MailChimp Signup Form -->",
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -594,7 +592,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -620,7 +618,7 @@
 		"cols":
 		[
 			0.0,
-			0.403711543286,
+			0.488542211034,
 			1.0
 		],
 		"rows":
@@ -638,7 +636,7 @@
 	"project": "fewd.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -676,7 +674,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 157.0,
+	"side_bar_width": 230.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
