@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Rum+Raisin');
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Chewy');
 
 * {
 	margin: 0;
@@ -72,8 +73,8 @@ header nav ul li.allCaps {
 
 /***********Hero 1***********/
 
-#hero {
-	background-image: url("../images/honeycomb-cereal.png");
+#hero, #generatorHero {
+	background-image: url("../images/fruity.png");
 	background-repeat: no-repeat;
     background-position: center center;
 	background-color: #fc89ac;
@@ -82,6 +83,22 @@ header nav ul li.allCaps {
 	overflow: hidden;
 	padding: 10px;
 }
+
+#generatorHero {
+	background-image: url("../images/pebbles.png");
+}
+
+#generatorBox {
+	background-image: url("../images/cereal_box.png");
+	background-repeat: no-repeat;
+    background-position: center top;
+	background-color: #b2e1cf;
+	height: 250px;
+	width: 100%;
+	overflow: hidden;
+	padding: 10px;
+}
+
 
 aside.box {
 	max-height: 200px;
@@ -143,7 +160,7 @@ aside.boxThree p {
 	color: black;
 }
 
-/***********HeroThree***********/
+/***********HeroTwo***********/
 
 #heroTwo {
 	/*background-image: url("../images/coworking.jpg");*/
@@ -195,12 +212,18 @@ aside.boxTwo p {
 }
 
 
-aside.boxFour {
+aside.boxFour, aside.boxFive {
 	max-height: 200px;
 	max-width: 500px;
 	margin: auto;
 	font-family: 'Source Sans Pro', sans-serif;
 	padding: 30px;
+}
+
+aside.boxFive {
+	font-family: 'Chewy', cursive;
+	color: white;
+
 }
 
 aside.boxFour h2 {
@@ -235,6 +258,39 @@ aside.boxFour button {
 	text-transform: uppercase;
 	border-radius: 20px;
 	display: block;
+}
+
+aside.boxFive button {
+	font-family: 'Oswald', sans-serif;
+	background:white;
+    height:auto;
+    width: auto;
+    margin: 20px auto;
+    cursor:pointer;
+	font-weight: 700;
+	font-size: 18px;
+	padding: 10px 25px;
+	border: 1;
+	border-color: #fc89ac;
+	outline: 0;
+	text-transform: uppercase;
+	border-radius: 20px;
+	display: block;
+}
+
+::selection {
+    color: none;
+    background: none;
+}
+
+.rotate{
+  -webkit-transform: rotate(343deg);
+  -moz-transform: rotate(343deg);
+  -ms-transform: rotate(343deg);
+  -o-transform: rotate(343deg);
+  transform: rotate(343deg);
+  margin-top: -50px;
+  margin-left: -25px;
 }
 
 /***********Footer***********/
@@ -321,6 +377,7 @@ footer nav ul li.allCaps {
 	text-align: center;
 
 }
+/*************************/
 
 /**********************************/
 /**********************************/
@@ -406,8 +463,15 @@ header nav ul li.noCaps {
 #hero,
 #heroTwo,
 #heroThree,
-#heroFour {
+#heroFour,
+#generatorHero
+{
 	height: 500px;
+}
+
+#generatorBox
+{
+	height: 700px;
 }
 
 aside.box {
@@ -468,7 +532,12 @@ aside.boxFour p {
 	width: 100%;
 }
 
+aside.boxFive {
+	font-family: 'Chewy', cursive;
+	font-size: 40px;
+	width: 100%;
 
+}
 
 /***********Footer***********/
 
