@@ -10,6 +10,8 @@
 	box-sizing: border-box;
 }
 
+/***********Navigation ***********/
+
 header {
 	background-color: #00a4ff;
 	border-bottom: 2px solid #fbec5d;
@@ -29,12 +31,11 @@ header h1 {
 }
 
 a {
-  
     text-decoration: none;
     color: white;
 }
 
-a:hover {
+a.topNav:hover {
     text-decoration: overline;
     color: 	#fbec5d;
 }
@@ -71,10 +72,16 @@ header nav ul li.allCaps {
 
 }
 
-/***********Hero 1***********/
+/***********Global Settings ***********/
 
-#hero, #generatorHero {
+#hero,
+#heroTwo,
+#heroThree,
+#heroFour,
+#generatorHero,
+#generatorBox {
 	background-image: url("../images/fruity.png");
+	background-size: 100% auto;
 	background-repeat: no-repeat;
     background-position: center center;
 	background-color: #fc89ac;
@@ -84,165 +91,39 @@ header nav ul li.allCaps {
 	padding: 10px;
 }
 
-#generatorHero {
-	background-image: url("../images/pebbles.png");
-}
-
-#generatorBox {
-	background-image: url("../images/cereal_box.png");
-	background-repeat: no-repeat;
-    background-position: center top;
-	background-color: #b2e1cf;
-	height: 250px;
-	width: 100%;
-	overflow: hidden;
-	padding: 10px;
-}
-
-
-aside.box {
-	max-height: 200px;
-	max-width: 500px;
-	margin: auto;
-	font-family: 'Source Sans Pro', sans-serif;
-	padding: 30px;
-}
-
-aside.box h2 {
-	font-weight: 700;
-	font-size: 42px;
-	text-align: center;
-}
-
-aside.box p {
-	font-weight: 300;
-	font-size: 16px;
-	line-height: 1.5;
-	width: 100%;
-	text-align: center;
-}
-
-/***********HeroThree***********/
-
-#heroThree {
-	background-image: url("../images/Cereal_2.png");
-	background-repeat: no-repeat;
-    background-position: center center;
-	background-color: #b2e1cf;
-	height: 250px;
-	width: 100%;
-	overflow: hidden;
-	padding: 10px;
-}
-
-
-aside.boxThree {
-	max-height: 200px;
-	max-width: 500px;
-	margin: auto;
-	font-family: 'Source Sans Pro', sans-serif;
-	padding: 30px;
-}
-
-aside.boxThree h2 {
-	font-weight: 700;
-	font-size: 42px;
-	text-align: center;
-	color: black;
-}
-
-aside.boxThree p {
-	font-weight: 300;
-	font-size: 16px;
-	line-height: 1.5;
-	width: 100%;
-	text-align: center;
-	color: black;
-}
-
-/***********HeroTwo***********/
-
-#heroTwo {
-	/*background-image: url("../images/coworking.jpg");*/
-	background-color: #40e0e0;
-	background-size: cover;
-	background-position: center;
-	height: 250px;
-	width: 100%;
-	overflow: hidden;
-	padding: 10px;
-}
-
-
-aside.boxTwo {
-	max-height: 200px;
-	max-width: 500px;
-	margin: auto;
-	font-family: 'Source Sans Pro', sans-serif;
-	padding: 30px;
-}
-
-aside.boxTwo h2 {
-	font-weight: 700;
-	font-size: 42px;
-	text-align: center;
-	color: white;
-}
-
-aside.boxTwo p {
-	font-weight: 300;
-	font-size: 16px;
-	line-height: 1.5;
-	width: 100%;
-	text-align: center;
-	color: white;
-}
-
-/***********HeroFour***********/
-
-#heroFour {
-	/*background-image: url("../images/coworking.jpg");*/
-	background-color: white;
-	background-size: cover;
-	background-position: center;
-	height: 250px;
-	width: 100%;
-	overflow: hidden;
-	padding: 10px;
-}
-
-
-aside.boxFour, aside.boxFive {
-	max-height: 200px;
-	max-width: 500px;
-	margin: auto;
-	font-family: 'Source Sans Pro', sans-serif;
-	padding: 30px;
-}
-
+aside.box,
+aside.boxTwo,
+aside.boxThree,
+aside.boxFour,
 aside.boxFive {
-	font-family: 'Chewy', cursive;
-	color: white;
-
+	max-height: 200px;
+	max-width: 500px;
+	margin: auto;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 30px;
 }
 
+aside.box h2,
+aside.boxTwo h2,
+aside.boxThree h2,
 aside.boxFour h2 {
 	font-weight: 700;
 	font-size: 42px;
 	text-align: center;
-	color: black;
 }
 
+aside.box p,
+aside.boxTwo p,
+aside.boxThree p,
 aside.boxFour p {
 	font-weight: 300;
 	font-size: 16px;
 	line-height: 1.5;
 	width: 100%;
 	text-align: center;
-	color: black;
 }
 
-aside.boxFour button {
+button {
 	font-family: 'Oswald', sans-serif;
 	background:transparent;
     height:auto;
@@ -260,22 +141,67 @@ aside.boxFour button {
 	display: block;
 }
 
-aside.boxFive button {
-	font-family: 'Oswald', sans-serif;
-	background:white;
-    height:auto;
-    width: auto;
-    margin: 20px auto;
-    cursor:pointer;
-	font-weight: 700;
-	font-size: 18px;
-	padding: 10px 25px;
-	border: 1;
-	border-color: #fc89ac;
-	outline: 0;
-	text-transform: uppercase;
-	border-radius: 20px;
-	display: block;
+/***********HeroTwo ***********/
+
+#heroTwo {
+	background-image:none;
+	background-color: #40e0e0;
+	background-size: cover;
+}
+
+aside.boxTwo h2 {
+	color: white;
+}
+
+aside.boxTwo p {
+	color: white;
+}
+
+/***********HeroThree ***********/
+#heroThree {
+	background-image: url("../images/Cereal_2.png");
+}
+
+aside.boxThree h2 {
+	color: white;
+}
+
+aside.boxThree p {
+	color: black;
+}
+
+/***********HeroFour ***********/
+
+#heroFour {
+	background-image: none;
+	background-color: white;
+	background-size: cover;
+}
+
+aside.boxFour h2 {
+	color: black;
+}
+
+aside.boxFour p {
+	color: black;
+}
+
+/***********#generator page + HeroFive***********/
+
+#generatorHero {
+	background-image: url("../images/cheerios.png");
+	background-color: #fc89ac;
+}
+
+#generatorBox {
+	background-image: url("../images/cereal_box.png");
+	background-color: #b2e1cf;
+}
+
+aside.boxFive {
+	font-family: 'Chewy', cursive;
+	color: white;
+
 }
 
 ::selection {
@@ -293,6 +219,11 @@ aside.boxFive button {
   margin-left: -25px;
 }
 
+aside.boxFive button {
+	background:white;
+}
+
+
 /***********Footer***********/
 
 
@@ -306,7 +237,26 @@ footer {
 
 }
 
+footer nav {
+	color: white;
+	margin: auto;
+}
 
+footer nav ul li {
+	padding-bottom: 15px;
+
+}
+
+footer nav ul li.allCaps {
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	list-style: none;
+	text-align: center;
+
+}
+
+/***********Footer FORM***********/
 /* Changes the style of the overall form */
 #mc_embed_signup {
     background: #f8f8f8;
@@ -359,24 +309,7 @@ footer {
     font-family: 'Oswald', sans-serif;
 }
 
-footer nav {
-	color: white;
-	margin: auto;
-}
 
-footer nav ul li {
-	padding-bottom: 15px;
-
-}
-
-footer nav ul li.allCaps {
-	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 300;
-	list-style: none;
-	text-align: center;
-
-}
 /*************************/
 
 /**********************************/
@@ -412,13 +345,16 @@ footer nav ul li.allCaps {
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 
+/***********Navigation ***********/
 header {
 	padding: 15px 0px 15px 0px;
+	max-height: 75px;
 }
 
 header h1 {
-	padding: 0px 75px;
+	padding-left:75px;
 	font-size: 42px;
+	margin: auto;
 }
 
 .hamburgerMenu {
@@ -430,7 +366,7 @@ header nav {
 	float: right;
 	margin-right: 50px;
 	margin-top: 0px;
-	padding-top: 16px;
+	
 	display: inline;
 }
 
@@ -440,103 +376,58 @@ header nav ul li {
 }
 
 header nav ul li.allCaps {
-	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 300;
 	font-size: 22px;
-	list-style: none;
-
 }
 
-header nav ul li.noCaps {
-	text-transform: none;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 300;
-	list-style: none;
-	font-size: 14px;
-}
-/***********Brains***********/
-
-
-/***********Hero***********/
-
+/***********Global Settings ***********/
 #hero,
 #heroTwo,
 #heroThree,
 #heroFour,
-#generatorHero
+#generatorHero,
+#generatorBox
 {
 	height: 500px;
 }
 
-#generatorBox
-{
-	height: 700px;
-}
-
-aside.box {
+aside.box,
+aside.boxTwo,
+aside.boxThree,
+aside.boxFour,
+aside.boxFive {
 	padding-top: 50px;
 }
 
-aside.box
- h2 {
+aside.box h2,
+aside.boxTwo h2,
+aside.boxThree h2,
+aside.boxFour h2 {
 	font-weight: 700;
 	font-size: 60px;
 }
 
-aside.box p {
-	font-weight: 300;
-	font-size: 18px;
-	line-height: 1.5;
-	width: 100%;
-}
-
-
-aside.boxTwo
- h2 {
-	font-weight: 700;
-	font-size: 60px;
-}
-
-aside.boxTwo p {
-	font-weight: 300;
-	font-size: 18px;
-	line-height: 1.5;
-	width: 100%;
-}
-
-aside.boxThree
- h2 {
-	font-weight: 700;
-	font-size: 60px;
-}
-
-aside.boxThree p {
-	font-weight: 300;
-	font-size: 18px;
-	line-height: 1.5;
-	width: 100%;
-}
-
-aside.boxFour
- h2 {
-	font-weight: 700;
-	font-size: 60px;
-}
-
-
+aside.box p,
+aside.boxTwo p,
+aside.boxThree p,
 aside.boxFour p {
-	font-weight: 300;
 	font-size: 18px;
-	line-height: 1.5;
-	width: 100%;
 }
+
+/***********HeroTwo ***********/
+/***********HeroThree ***********/
+/***********HeroFour ***********/
+/***********#generator page + HeroFive***********/
 
 aside.boxFive {
 	font-family: 'Chewy', cursive;
 	font-size: 40px;
 	width: 100%;
 
+}
+
+#generatorBox
+{
+	height: 700px;
 }
 
 /***********Footer***********/
