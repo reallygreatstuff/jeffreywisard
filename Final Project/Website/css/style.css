@@ -97,7 +97,7 @@ aside.boxThree,
 aside.boxFour,
 aside.boxFive {
 	max-height: 200px;
-	max-width: 500px;
+	max-width: 600px;
 	margin: auto;
 	font-family: 'Source Sans Pro', sans-serif;
 	padding: 30px;
@@ -110,6 +110,10 @@ aside.boxFour h2 {
 	font-weight: 700;
 	font-size: 42px;
 	text-align: center;
+	-webkit-margin-before: 0em;
+-webkit-margin-after: 0em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
 }
 
 aside.box p,
@@ -121,6 +125,11 @@ aside.boxFour p {
 	line-height: 1.5;
 	width: 100%;
 	text-align: center;
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	margin-top: 15px;
 }
 
 button {
@@ -216,7 +225,7 @@ aside.boxFive {
   -o-transform: rotate(343deg);
   transform: rotate(343deg);
   margin-top: -50px;
-  margin-left: -25px;
+  margin-left: 25px;
 }
 
 aside.boxFive button {
@@ -403,14 +412,14 @@ aside.boxTwo h2,
 aside.boxThree h2,
 aside.boxFour h2 {
 	font-weight: 700;
-	font-size: 60px;
+	font-size: 75px;
 }
 
 aside.box p,
 aside.boxTwo p,
 aside.boxThree p,
 aside.boxFour p {
-	font-size: 18px;
+	font-size: 24px;
 }
 
 /***********HeroTwo ***********/
