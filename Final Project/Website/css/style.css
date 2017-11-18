@@ -79,7 +79,8 @@ header nav ul li.allCaps {
 #heroThree,
 #heroFour,
 #generatorHero,
-#generatorBox {
+#generatorBox,
+#heroSix {
 	background-image: url("../images/fruity.png");
 	background-size: 100% auto;
 	background-repeat: no-repeat;
@@ -111,9 +112,9 @@ aside.boxFour h2 {
 	font-size: 42px;
 	text-align: center;
 	-webkit-margin-before: 0em;
--webkit-margin-after: 0em;
--webkit-margin-start: 0px;
--webkit-margin-end: 0px;
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
 }
 
 aside.box p,
@@ -150,6 +151,7 @@ button {
 	display: block;
 }
 
+
 /***********HeroTwo ***********/
 
 #heroTwo {
@@ -176,7 +178,7 @@ aside.boxThree h2 {
 }
 
 aside.boxThree p {
-	color: black;
+	color: white;
 }
 
 /***********HeroFour ***********/
@@ -231,6 +233,39 @@ aside.boxFive {
 aside.boxFive button {
 	background:white;
 }
+
+/***********Crunchy Combos***********/
+#heroSix {
+	background-image: none;
+	background-color: white;
+	background-size: cover;
+	height: 500px;
+}
+
+.mySlides {
+	width: 100%;
+}
+
+.w3-content {
+	max-width: 600px;
+	display: block;
+	margin: auto;
+}
+
+#container{
+	 text-align: center;
+}
+
+.button2,
+.button3 {
+	background: #fbec5d;
+	display: inline-block;
+	margin:auto;
+	margin-bottom: 20px;
+
+}
+
+
 
 
 /***********Footer***********/
@@ -405,6 +440,7 @@ aside.boxThree,
 aside.boxFour,
 aside.boxFive {
 	padding-top: 50px;
+
 }
 
 aside.box h2,
@@ -413,6 +449,7 @@ aside.boxThree h2,
 aside.boxFour h2 {
 	font-weight: 700;
 	font-size: 75px;
+	line-height: 1em;
 }
 
 aside.box p,
@@ -438,7 +475,12 @@ aside.boxFive {
 {
 	height: 700px;
 }
+/***********Crunchy Combos***********/
 
+#heroSix
+{
+	height: 700px;
+}
 /***********Footer***********/
 
 }
