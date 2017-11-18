@@ -143,7 +143,7 @@ button {
 	font-weight: 700;
 	font-size: 18px;
 	padding: 10px 25px;
-	border: 1;
+	border: 3px solid ;
 	border-color: #fc89ac;
 	outline: 0;
 	text-transform: uppercase;
@@ -265,11 +265,75 @@ aside.boxFive button {
 
 }
 
+/***********MailChimp Form***********/
+section{
+	text-align: center;
+	margin: auto;
+}
+input {
+  height: 50px;
+  font-size: 18px;
+  outline: 0;
+  border-color: black;
+  border-width: 1px;
+}
 
+#mc_embed_signup {
+    background: #fbec5d;
+    padding: 25px;
+    margin: auto;
+}
 
+#mc_embed_signup .mc-field-group {
+  padding: 0;
+}
+
+#mc_embed_signup .mc-field-group input.email,
+#mc_embed_signup .mc-field-group input#mc-embedded-subscribe {
+  display: inline-block;
+}
+
+#mc_embed_signup .mc-field-group input.email {
+  width: 50%;
+  margin: auto;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  padding-left: 25px;
+}
+
+#mc_embed_signup .mc-field-group input#mc-embedded-subscribe {
+  width: 20%;
+  max-width: 100px;
+  background-color: white;
+  height: auto;
+  margin-left: 22px;
+  font-family: 'Oswald', sans-serif;
+  cursor:pointer;
+  font-weight: 700;
+  font-size: 16px;
+  border: 3px solid ;
+  border-color: #fc89ac;
+  outline: 0;
+  text-transform: uppercase;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px 10px;
+}
+
+#mc_embed_signup #mce-responses div {
+    color: black;
+    font-size: 21px;
+    text-align: center;
+}
+
+.indicates-required,
+#mc_embed_signup .mc-field-group label {
+  display:none;
+}
 
 /***********Footer***********/
-
 
 footer {
 	background-color: #00a4ff;
@@ -278,7 +342,6 @@ footer {
 	overflow: hidden;
 	padding: 15px 0px 15px 0px;
 	margin-bottom: 0px;
-
 }
 
 footer nav {
@@ -288,7 +351,6 @@ footer nav {
 
 footer nav ul li {
 	padding-bottom: 15px;
-
 }
 
 footer nav ul li.allCaps {
@@ -297,65 +359,11 @@ footer nav ul li.allCaps {
 	font-weight: 300;
 	list-style: none;
 	text-align: center;
-
-}
-
-/***********Footer FORM***********/
-/* Changes the style of the overall form */
-#mc_embed_signup {
-    background: #f8f8f8;
-    color: #000000;
-    padding: 20px;
-    text-align: left;
-    max-width: 425px;
-    max-height: 400px;
-    margin:auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-/* Styles the header text above the inputs */
-#mc_embed_signup h2 {
-	font-family: 'Oswald', sans-serif;
-    font-size: 18px;
-    /*margin: 0 0 20px;*/
-    color: #000000;
-    text-align: left;
-}
-
-.indicates-required {
-	font-family: 'Oswald', sans-serif;
 }
 
 
-/* Adds extra space around the input boxes */
-#mc_embed_signup .mc-field-group {
-    padding: 10px 0;
-    font-family: 'Oswald', sans-serif;
-    text-align: left;
-}
 
-/* Styles the input boxes */
-#mc_embed_signup  input {
-    width: 200px;
-    height: auto;
-    padding: 5px 0px;
-    font-family: 'Oswald', sans-serif;
-    display: inline-block;
-
-}
-
-/* Styles the subscribe button */
-#mc_embed_signup .button {
-    background-color: #000000;
-    color: #ffffff;
-    margin: 0 auto;
-    font-family: 'Oswald', sans-serif;
-}
-
-
-/*************************/
-.mySlides {display:none}
+/**********************************/
 /**********************************/
 /**********************************/
 /**********************************/
@@ -385,6 +393,8 @@ footer nav ul li.allCaps {
 /**********************************/
 /**********************************/
 /**********************************/
+
+
 /***********Header***********/
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
@@ -482,5 +492,15 @@ aside.boxFive {
 	height: 700px;
 }
 /***********Footer***********/
+footer nav {
+	margin: auto;
+}
 
+footer nav ul {
+	text-align: center;
+}
+footer nav ul li {
+	display: inline-block;
+	padding: 15px;
+}
 }
