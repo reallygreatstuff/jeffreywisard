@@ -229,8 +229,18 @@ aside.boxFour p {
 	background-color: #fc89ac;
 }
 
+.cerealGenerator.boxFive {
+  background-image: url("../images/cereal_box.png");
+  max-width: 522px;
+  width: 100%;
+  margin: auto;
+  background-size: 100% auto;
+  height: 100%;
+  max-height: none;
+}
+
 #generatorBox {
-	background-image: url("../images/cereal_box.png");
+	/*background-image: url("../images/cereal_box.png");*/
 	background-color: #b2e1cf;
 }
 
