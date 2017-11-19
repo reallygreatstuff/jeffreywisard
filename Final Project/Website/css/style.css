@@ -230,15 +230,30 @@ aside.boxFour p {
 }
 
 .cerealGenerator.boxFive {
-  background-image: url("../images/cereal_box.png");
+  /*background-image: url("../images/cereal_box.png");*/
   max-width: 522px;
   width: 100%;
   margin: auto;
   background-size: 100% auto;
   height: 100%;
   max-height: none;
+
 }
 
+.cerealGenerator.boxFive h2 {
+  font-size: 9vw;
+}
+
+.cerealGenerator.boxFive button {
+  position: absolute;
+  top: 29%;
+  right: 22%;
+}
+
+.cerealGenerator.boxFive img {
+  width: 100%;
+}
+    
 #generatorBox {
 	/*background-image: url("../images/cereal_box.png");*/
 	background-color: #b2e1cf;
@@ -261,8 +276,11 @@ aside.boxFive {
   -ms-transform: rotate(343deg);
   -o-transform: rotate(343deg);
   transform: rotate(343deg);
-  margin-top: -50px;
-  margin-left: 25px;
+  /* margin-top: -50px; */
+  /* margin-left: 25px; */
+  position: absolute;
+  top: 5%;
+  left: 9%;
 }
 
 aside.boxFive button {
@@ -530,6 +548,17 @@ aside.boxFive {
 {
 	height: 700px;
 }
+.cerealGenerator.boxFive h2 {
+  font-size: 54px;
+}
+.cerealGenerator.boxFive button {
+  right: 20%;
+}
+.rotate {
+  top: 13%;
+  left: 9%;
+}
+
 /***********Crunchy Combos***********/
 
 #heroSix
