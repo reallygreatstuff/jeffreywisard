@@ -247,7 +247,7 @@ aside.boxFive button {
 }
 
 .w3-content {
-	max-width: 600px;
+	max-width: 800px;
 	display: block;
 	margin: auto;
 }
@@ -491,8 +491,13 @@ aside.boxFive {
 {
 	height: 700px;
 }
+
+.w3-content {
+	max-width: 1000px;
+}
+
 /***********Footer***********/
-footer nav {
+footer nav ul{
 	margin: auto;
 }
 

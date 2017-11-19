@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"bordd",
+				"border-width"
+			],
+			[
 				"marg",
 				"margin"
 			],
@@ -28,10 +44,6 @@
 				"margin-top"
 			],
 			[
-				"padd",
-				"padding-top"
-			],
-			[
 				"fot",
 				"font-style"
 			],
@@ -48,10 +60,6 @@
 				"background"
 			],
 			[
-				"padding",
-				"padding"
-			],
-			[
 				"paddin",
 				"padding-right"
 			],
@@ -62,10 +70,6 @@
 			[
 				"li",
 				"listItem"
-			],
-			[
-				"in",
-				"inline-flex"
 			],
 			[
 				"align",
@@ -296,11 +300,19 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/crunchy-combos.html",
+			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/index.html",
 			"settings":
 			{
-				"buffer_size": 3727,
+				"buffer_size": 4179,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/Restricted/index.html",
+			"settings":
+			{
+				"buffer_size": 2190,
 				"line_ending": "Windows"
 			}
 		},
@@ -308,7 +320,7 @@
 			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/css/style.css",
 			"settings":
 			{
-				"buffer_size": 7293,
+				"buffer_size": 8094,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -317,16 +329,8 @@
 			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/js/index.js",
 			"settings":
 			{
-				"buffer_size": 2763,
+				"buffer_size": 736,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/16/16_to_do_list/js/index.js",
-			"settings":
-			{
-				"buffer_size": 1893,
 				"line_ending": "Windows"
 			}
 		}
@@ -375,18 +379,21 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/css"
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard"
 	],
 	"file_history":
 	[
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/Restricted/css/style.css",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/crunchy-combos.html",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/slider test.html",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/cereal-name-generator.html",
+		"/C/Users/Jeff/Desktop/w3.css",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/js/index2.js",
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/16/16_to_do_list/js/index.js",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/js/page-transitions.js",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/js/jquery.js",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/js/components.css",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/js/example.js",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/Restricted/css/style.css",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/Wylesha/WyleshaRachell/restricted/css/style.css",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/Restricted/index.html",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/Wylesha/WyleshaRachell/restricted/index.html",
@@ -394,12 +401,10 @@
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/Restricted/.htpassword",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/Restricted/.htaccess",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/index.html",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/cereal-name-generator.html",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/js/index.js",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/css/style.css",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/index.html",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/history-of-cereal.html",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/crunchy-combos.html",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/css/example.css",
 		"/C/Users/Jeff/Desktop/Full-Page-Transition-Animations-with-jQuery-CSS3-Page-Transition/Full-Page-Transition-Animations-with-jQuery-CSS3-Page-Transition/index.html",
 		"/C/Users/Jeff/Desktop/Full-Page-Transition-Animations-with-jQuery-CSS3-Page-Transition/Full-Page-Transition-Animations-with-jQuery-CSS3-Page-Transition/js/example.js",
@@ -505,12 +510,11 @@
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/GA-FEWD/Week_01_Basics/01_html_basics/solution/JeffreyWisard/cookie_recipe/index.html",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/01/cookie_recipe/index.html",
 		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/01/ga-press-release/index.html",
-		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/01/fewd.sublime-project",
-		"/C/Users/Jeff/Desktop/test"
+		"/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/01/fewd.sublime-project"
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 43.0
 	},
 	"find_in_files":
 	{
@@ -524,6 +528,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"section",
+			"button",
+			";\n",
+			"2pxl",
+			"w3-content",
+			"w3-button demo",
+			"w3-light-grey",
+			".w3-button",
 			"margin",
 			"16",
 			"pebbles",
@@ -568,19 +580,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/crunchy-combos.html",
+					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3727,
+						"buffer_size": 4179,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1410,
-								1410
+								4096,
+								4096
 							]
 						],
 						"settings":
@@ -589,10 +601,40 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 855.0,
+						"translation.y": 2234.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/Restricted/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2190,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								329,
+								2117
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1252.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -602,20 +644,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7293,
+						"buffer_size": 8094,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5594,
-								5594
+								8050,
+								8050
 							]
 						],
 						"settings":
@@ -623,63 +665,34 @@
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 6143.0,
+						"translation.y": 9681.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/Final Project/Website/js/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2763,
+						"buffer_size": 736,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2763,
-								2763
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 66.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/Users/Jeff/Desktop/FEWD16/Sites/JeffreyWisard/16/16_to_do_list/js/index.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1893,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								30,
+								0,
 								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -693,7 +706,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -719,7 +732,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.481514084507,
 			1.0
 		],
 		"rows":
@@ -737,7 +750,7 @@
 	"project": "fewd.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 58.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -767,7 +780,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
