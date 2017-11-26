@@ -43,6 +43,7 @@ a.topNav:hover {
 header nav {
 	color: white;
 	display: none;
+	padding-top: 15px;
 }
 
 header nav ul li {
@@ -356,6 +357,59 @@ aside.boxFive button {
 	background: white;
 }
 
+/*----------  Histroy Of Cereal  ----------*/
+#home {
+  overflow: hidden;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  height: auto;
+}
+
+
+.center {
+  text-align: center;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.5;
+  width: 100%;
+  padding: 25px 0px;
+  color: white;
+  margin: auto;
+  background-color: #40e0e0;
+  font-family: 'Source Sans Pro', sans-serif;
+  border-bottom: 2px solid #fbec5d;
+  border-top: 2px solid #fbec5d;
+}
+
+.slider {
+  height: auto;
+  margin-bottom: 0px;
+}
+
+.slider img {
+  width: 100%;
+  max-height: 100%;
+}
+
+.slick-prev, .slick-next {
+  width: 45px;
+  height: 45px;
+  z-index:1;
+  margin: auto;
+}
+
+.slider .slick-prev {
+  left: 10px;
+}
+
+.slider .slick-next {
+  right: 10px;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 45px;
+}
+
 /***********MailChimp Form***********/
 section{
 	text-align: center;
@@ -390,12 +444,12 @@ input {
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
-  font-size: 16px;
-  padding-left: 25px;
+  font-size: 14px;
+  padding-left: 10px;
 }
 
 #mc_embed_signup .mc-field-group input#mc-embedded-subscribe {
-  width: 20%;
+  width: 25%;
   max-width: 100px;
   background-color: white;
   height: auto;
@@ -403,7 +457,7 @@ input {
   font-family: 'Oswald', sans-serif;
   cursor:pointer;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 12px;
   border: 3px solid ;
   border-color: #fc89ac;
   outline: 0;
@@ -451,40 +505,6 @@ footer nav ul li.allCaps {
 	list-style: none;
 	text-align: center;
 }
-
-/*----------  Histroy Of Cereal  ----------*/
-#home {
-  overflow: hidden;
-}
-
-.slider {
-  height: auto;
-  margin-bottom: -15px;
-}
-
-.slider img {
-  width: 100%;
-  min-height: 100%;
-}
-
-.slick-prev, .slick-next {
-  width: 45px;
-  height: 45px;
-  z-index:1;
-}
-
-.slider .slick-prev {
-  left: 10px;
-}
-
-.slider .slick-next {
-  right: 10px;
-}
-
-.slick-prev:before, .slick-next:before {
-  font-size: 45px;
-}
-
 
 /**********************************/
 /**********************************/
@@ -617,6 +637,16 @@ aside.boxFive {
 
 .w3-content {
 	max-width: 800px;
+
+}
+/***********MailChimp Form***********/
+#mc_embed_signup .mc-field-group input.email {  
+  font-size: 16px;
+  padding-left: 25px;
+}
+
+#mc_embed_signup .mc-field-group input#mc-embedded-subscribe {
+  font-size: 16px;
 }
 
 /***********Footer***********/
@@ -627,8 +657,8 @@ footer nav ul{
 footer nav ul {
 	text-align: center;
 }
+
 footer nav ul li {
 	display: inline-block;
 	padding: 15px;
-}
 }
