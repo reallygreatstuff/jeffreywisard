@@ -3,7 +3,7 @@ $(document).ready(function(){
       $('nav').slideToggle('200');
     });
 
-//Slider
+//Combo Slider
     $("#container button").click(function() {
       if($(this).hasClass("prev")){
         plusDivs(-1)

@@ -81,27 +81,39 @@ header nav ul li.allCaps {
 #generatorHero,
 #generatorBox,
 #heroSix {
-    background-image: url(../images/cheerios.png);
-    background-size: 60% auto;
-    background-repeat: no-repeat;
-    background-position: center 130%;
     background-color: #fc89ac;
-    /*height: 250px;*/
-    width: 100%;
-    overflow: hidden;
-    padding: 10px;
-    position: relative;
 }
 
+.pic {
+	overflow: hidden;
+	margin: auto;
+	width: 35%;
+    height: auto;
+	display: block;
+	padding-bottom: 20px;
+	
+}
+
+.picTwo {
+	overflow: hidden;
+	margin: auto auto 0;
+	width: 100%;
+    height: auto;
+	display: block;
+	/*padding-bottom: 20px;*/
+	
+}
 .overlay {
 	position: absolute;
-    background-color: white;
-    top: 0;
-    left: 0;
+    background-color: black;
     width: 100%;
     height: 100%;
-    opacity: .3;
-    z-index: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .50;
+    z-index: -10;
     display: none;
 }
 
@@ -110,13 +122,12 @@ aside.boxTwo,
 aside.boxThree,
 aside.boxFour,
 aside.boxFive {
-	max-height: 200px;
-	/*max-width: 600px;*/
+	/*min-height: 200px;*/
 	margin: auto;
 	font-family: 'Source Sans Pro', sans-serif;
 	padding: 30px;
-	z-index: 1;
-	position: relative;
+	/*z-index: 1;*/
+	/*position: relative;*/
 }
 
 aside.box h2,
@@ -147,9 +158,9 @@ aside.boxFour p {
 	-webkit-margin-end: 0px;
 	margin-top: 15px;
 }
-/*CHANGES MADE HERE*/
+
 #hero aside.box p,
-#herotwo aside.boxTwo p,
+#heroTwo aside.boxTwo p,
 #heroThree aside.boxThree p,
 #heroFour aside.boxFour p{
 	max-width: 600px;
@@ -181,6 +192,7 @@ button {
 	background-image:none;
 	background-color: #40e0e0;
 	background-size: cover;
+
 }
 
 aside.boxTwo h2 {
@@ -193,8 +205,15 @@ aside.boxTwo p {
 
 /***********HeroThree ***********/
 #heroThree {
-	background-image: url("../images/Cereal_2.png");
-	background-size: 100% auto;
+	background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.25), 
+      rgba(0, 0, 0, 0.25)
+    ),
+    /* bottom, image */
+    url("../images/Cereal_2.png");
+    background-size: 100% auto;
 	background-position: center center;
 }
 
@@ -225,7 +244,7 @@ aside.boxFour p {
 /***********#generator page + HeroFive***********/
 
 #generatorHero {
-	background-image: url("../images/cheerios.png");
+	/*background-image: url("../images/cheerios.png");*/
 	background-color: #fc89ac;
 }
 
@@ -314,6 +333,13 @@ aside.boxFive button {
 
 }
 
+
+.button1{
+	background: #fbec5d;
+	margin-bottom: 20px;
+	transition: all .5s;
+
+}
 .button2,
 .button3 {
 	background: #fbec5d;
@@ -323,6 +349,8 @@ aside.boxFive button {
 	transition: all .5s;
 
 }
+
+.button1:hover,
 .button2:hover,
 .button3:hover {
 	background: white;
@@ -424,41 +452,56 @@ footer nav ul li.allCaps {
 	text-align: center;
 }
 
-
-
-/**********************************/
-/**********************************/
-/**********************************/
-/**********************************/
-[role="page"] {
-	background-color: #FFFFFF;
-	height: 100%;
-	overflow: hidden;
-	visibility: hidden;
-	position: absolute;
-	width: 100%;
+/*----------  Histroy Of Cereal  ----------*/
+#home {
+  overflow: hidden;
 }
 
-.current-page {
-	visibility: visible;
-	z-index: 1;
+.slider {
+  height: auto;
+  margin-bottom: -15px;
+}
+
+.slider img {
+  width: 100%;
+  min-height: 100%;
+}
+
+.slick-prev, .slick-next {
+  width: 45px;
+  height: 45px;
+  z-index:1;
+}
+
+.slider .slick-prev {
+  left: 10px;
+}
+
+.slider .slick-next {
+  right: 10px;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 45px;
 }
 
 
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
 
 
-/**********************************/
-/**********************************/
-/**********************************/
-/**********************************/
-/**********************************/
-/**********************************/
-/**********************************/
-/**********************************/
-/**********************************/
 
-
-/***********Header***********/
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 
@@ -497,6 +540,7 @@ header nav ul li.allCaps {
 }
 
 /***********Global Settings ***********/
+
 #hero,
 #heroTwo,
 #heroThree,
@@ -504,7 +548,12 @@ header nav ul li.allCaps {
 #generatorHero,
 #generatorBox
 {
-	height: 500px;
+	/*min-height: 400px;*/
+}
+
+#heroThree
+{
+	min-height: 400px;
 }
 
 aside.box,
